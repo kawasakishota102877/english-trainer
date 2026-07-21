@@ -1,0 +1,601 @@
+﻿カテゴリ,難易度,日本語問題,英語模範回答
+会議進行,初級,まず、本日の目的を確認します。,"First, let's confirm today's objective."
+会議進行,初級,まず、議題を確認します。,"First, let's confirm the agenda."
+会議進行,初級,まず、背景を確認します。,"First, let's confirm the background."
+会議進行,初級,まず、現在の状況を確認します。,"First, let's confirm the current status."
+会議進行,初級,まず、次のステップを確認します。,"First, let's confirm the next steps."
+会議進行,初級,まず、スケジュールを確認します。,"First, let's confirm the schedule."
+会議進行,初級,まず、役割分担を確認します。,"First, let's confirm the roles."
+会議進行,初級,まず、資料を確認します。,"First, let's confirm the material."
+会議進行,初級,まず、主要な論点を確認します。,"First, let's confirm the key points."
+会議進行,初級,まず、確認事項を確認します。,"First, let's confirm the items to confirm."
+会議進行,初級,まず、結論を確認します。,"First, let's confirm the conclusion."
+会議進行,初級,まず、会議の進め方を確認します。,"First, let's confirm how we will proceed."
+会議進行,初級,まず、時間配分を確認します。,"First, let's confirm the time allocation."
+会議進行,初級,まず、アクションアイテムを確認します。,"First, let's confirm the action items."
+会議進行,初級,まず、決定事項を確認します。,"First, let's confirm the decisions."
+会議進行,初級,次に、本日の目的について話します。,"Next, we will discuss today's objective."
+会議進行,初級,次に、議題について話します。,"Next, we will discuss the agenda."
+会議進行,初級,次に、背景について話します。,"Next, we will discuss the background."
+会議進行,初級,次に、現在の状況について話します。,"Next, we will discuss the current status."
+会議進行,初級,次に、次のステップについて話します。,"Next, we will discuss the next steps."
+会議進行,初級,次に、スケジュールについて話します。,"Next, we will discuss the schedule."
+会議進行,初級,次に、役割分担について話します。,"Next, we will discuss the roles."
+会議進行,初級,次に、資料について話します。,"Next, we will discuss the material."
+会議進行,初級,次に、主要な論点について話します。,"Next, we will discuss the key points."
+会議進行,初級,次に、確認事項について話します。,"Next, we will discuss the items to confirm."
+会議進行,初級,次に、結論について話します。,"Next, we will discuss the conclusion."
+会議進行,初級,次に、会議の進め方について話します。,"Next, we will discuss how we will proceed."
+会議進行,初級,次に、時間配分について話します。,"Next, we will discuss the time allocation."
+会議進行,初級,次に、アクションアイテムについて話します。,"Next, we will discuss the action items."
+会議進行,初級,次に、決定事項について話します。,"Next, we will discuss the decisions."
+会議進行,初級,この会議では、本日の目的を扱います。,"In this meeting, we will cover today's objective."
+会議進行,初級,この会議では、議題を扱います。,"In this meeting, we will cover the agenda."
+会議進行,初級,この会議では、背景を扱います。,"In this meeting, we will cover the background."
+会議進行,初級,この会議では、現在の状況を扱います。,"In this meeting, we will cover the current status."
+会議進行,初級,この会議では、次のステップを扱います。,"In this meeting, we will cover the next steps."
+会議進行,中級,議論の前提条件について、全員の認識を合わせたいです。,I would like to align everyone's understanding of the assumptions for the discussion.
+会議進行,中級,優先順位について、全員の認識を合わせたいです。,I would like to align everyone's understanding of the priorities.
+会議進行,中級,懸念事項について、全員の認識を合わせたいです。,I would like to align everyone's understanding of the concerns.
+会議進行,中級,関係者の期待値について、全員の認識を合わせたいです。,I would like to align everyone's understanding of stakeholder expectations.
+会議進行,中級,判断基準について、全員の認識を合わせたいです。,I would like to align everyone's understanding of the decision criteria.
+会議進行,中級,未解決事項について、全員の認識を合わせたいです。,I would like to align everyone's understanding of the open issues.
+会議進行,中級,依存関係について、全員の認識を合わせたいです。,I would like to align everyone's understanding of the dependencies.
+会議進行,中級,リスクと対応策について、全員の認識を合わせたいです。,I would like to align everyone's understanding of the risks and countermeasures.
+会議進行,中級,合意形成のポイントについて、全員の認識を合わせたいです。,I would like to align everyone's understanding of the points for alignment.
+会議進行,中級,フォローアップ方法について、全員の認識を合わせたいです。,I would like to align everyone's understanding of the follow-up approach.
+会議進行,中級,認識のずれについて、全員の認識を合わせたいです。,I would like to align everyone's understanding of any gaps in understanding.
+会議進行,中級,代替案について、全員の認識を合わせたいです。,I would like to align everyone's understanding of the alternatives.
+会議進行,中級,必要な追加情報について、全員の認識を合わせたいです。,I would like to align everyone's understanding of the additional information needed.
+会議進行,中級,担当者と期限について、全員の認識を合わせたいです。,I would like to align everyone's understanding of the owner and deadline.
+会議進行,中級,次回までの宿題について、全員の認識を合わせたいです。,I would like to align everyone's understanding of the homework before the next meeting.
+会議進行,中級,この時点で、議論の前提条件を明確にしておきたいです。,"At this point, I would like to clarify the assumptions for the discussion."
+会議進行,中級,この時点で、優先順位を明確にしておきたいです。,"At this point, I would like to clarify the priorities."
+会議進行,中級,この時点で、懸念事項を明確にしておきたいです。,"At this point, I would like to clarify the concerns."
+会議進行,中級,この時点で、関係者の期待値を明確にしておきたいです。,"At this point, I would like to clarify stakeholder expectations."
+会議進行,中級,この時点で、判断基準を明確にしておきたいです。,"At this point, I would like to clarify the decision criteria."
+会議進行,中級,この時点で、未解決事項を明確にしておきたいです。,"At this point, I would like to clarify the open issues."
+会議進行,中級,この時点で、依存関係を明確にしておきたいです。,"At this point, I would like to clarify the dependencies."
+会議進行,中級,この時点で、リスクと対応策を明確にしておきたいです。,"At this point, I would like to clarify the risks and countermeasures."
+会議進行,中級,この時点で、合意形成のポイントを明確にしておきたいです。,"At this point, I would like to clarify the points for alignment."
+会議進行,中級,この時点で、フォローアップ方法を明確にしておきたいです。,"At this point, I would like to clarify the follow-up approach."
+会議進行,中級,この時点で、認識のずれを明確にしておきたいです。,"At this point, I would like to clarify any gaps in understanding."
+会議進行,中級,この時点で、代替案を明確にしておきたいです。,"At this point, I would like to clarify the alternatives."
+会議進行,中級,この時点で、必要な追加情報を明確にしておきたいです。,"At this point, I would like to clarify the additional information needed."
+会議進行,中級,この時点で、担当者と期限を明確にしておきたいです。,"At this point, I would like to clarify the owner and deadline."
+会議進行,中級,この時点で、次回までの宿題を明確にしておきたいです。,"At this point, I would like to clarify the homework before the next meeting."
+会議進行,中級,議論の前提条件に関して、合意できる点を確認しましょう。,Let's confirm where we can agree on the assumptions for the discussion.
+会議進行,中級,優先順位に関して、合意できる点を確認しましょう。,Let's confirm where we can agree on the priorities.
+会議進行,中級,懸念事項に関して、合意できる点を確認しましょう。,Let's confirm where we can agree on the concerns.
+会議進行,中級,関係者の期待値に関して、合意できる点を確認しましょう。,Let's confirm where we can agree on stakeholder expectations.
+会議進行,中級,判断基準に関して、合意できる点を確認しましょう。,Let's confirm where we can agree on the decision criteria.
+会議進行,上級,意思決定に必要な論点を明確にしたうえで、意思決定に進みたいです。,"After clarifying the points required for decision-making, I would like to move toward a decision."
+会議進行,上級,合意できている範囲と論点が残る範囲を明確にしたうえで、意思決定に進みたいです。,"After clarifying where we agree and where issues remain, I would like to move toward a decision."
+会議進行,上級,短期対応と長期対応の切り分けを明確にしたうえで、意思決定に進みたいです。,"After clarifying the distinction between short-term and long-term actions, I would like to move toward a decision."
+会議進行,上級,技術面と事業面のトレードオフを明確にしたうえで、意思決定に進みたいです。,"After clarifying the trade-off between technical and business aspects, I would like to move toward a decision."
+会議進行,上級,不確実性が高い部分を明確にしたうえで、意思決定に進みたいです。,"After clarifying the areas with high uncertainty, I would like to move toward a decision."
+会議進行,上級,今後の検証計画を明確にしたうえで、意思決定に進みたいです。,"After clarifying the future validation plan, I would like to move toward a decision."
+会議進行,上級,経営判断に必要な情報を明確にしたうえで、意思決定に進みたいです。,"After clarifying the information needed for management decisions, I would like to move toward a decision."
+会議進行,上級,会議後のコミュニケーション方法を明確にしたうえで、意思決定に進みたいです。,"After clarifying the communication approach after the meeting, I would like to move toward a decision."
+会議進行,上級,関係者への説明方針を明確にしたうえで、意思決定に進みたいです。,"After clarifying the explanation strategy for stakeholders, I would like to move toward a decision."
+会議進行,上級,論点の優先度付けを明確にしたうえで、意思決定に進みたいです。,"After clarifying the prioritization of discussion points, I would like to move toward a decision."
+会議進行,上級,意思決定に必要な論点について、短期的な対応と長期的な方向性を分けて議論しましょう。,"For the points required for decision-making, let's separate the discussion into short-term actions and long-term direction."
+会議進行,上級,合意できている範囲と論点が残る範囲について、短期的な対応と長期的な方向性を分けて議論しましょう。,"For where we agree and where issues remain, let's separate the discussion into short-term actions and long-term direction."
+会議進行,上級,短期対応と長期対応の切り分けについて、短期的な対応と長期的な方向性を分けて議論しましょう。,"For the distinction between short-term and long-term actions, let's separate the discussion into short-term actions and long-term direction."
+会議進行,上級,技術面と事業面のトレードオフについて、短期的な対応と長期的な方向性を分けて議論しましょう。,"For the trade-off between technical and business aspects, let's separate the discussion into short-term actions and long-term direction."
+会議進行,上級,不確実性が高い部分について、短期的な対応と長期的な方向性を分けて議論しましょう。,"For the areas with high uncertainty, let's separate the discussion into short-term actions and long-term direction."
+会議進行,上級,今後の検証計画について、短期的な対応と長期的な方向性を分けて議論しましょう。,"For the future validation plan, let's separate the discussion into short-term actions and long-term direction."
+会議進行,上級,経営判断に必要な情報について、短期的な対応と長期的な方向性を分けて議論しましょう。,"For the information needed for management decisions, let's separate the discussion into short-term actions and long-term direction."
+会議進行,上級,会議後のコミュニケーション方法について、短期的な対応と長期的な方向性を分けて議論しましょう。,"For the communication approach after the meeting, let's separate the discussion into short-term actions and long-term direction."
+会議進行,上級,関係者への説明方針について、短期的な対応と長期的な方向性を分けて議論しましょう。,"For the explanation strategy for stakeholders, let's separate the discussion into short-term actions and long-term direction."
+会議進行,上級,論点の優先度付けについて、短期的な対応と長期的な方向性を分けて議論しましょう。,"For the prioritization of discussion points, let's separate the discussion into short-term actions and long-term direction."
+会議進行,上級,意思決定に必要な論点に関する不確実性を踏まえ、追加検証の要否を判断したいです。,"Considering the uncertainty around the points required for decision-making, I would like to decide whether additional validation is needed."
+会議進行,上級,合意できている範囲と論点が残る範囲に関する不確実性を踏まえ、追加検証の要否を判断したいです。,"Considering the uncertainty around where we agree and where issues remain, I would like to decide whether additional validation is needed."
+会議進行,上級,短期対応と長期対応の切り分けに関する不確実性を踏まえ、追加検証の要否を判断したいです。,"Considering the uncertainty around the distinction between short-term and long-term actions, I would like to decide whether additional validation is needed."
+会議進行,上級,技術面と事業面のトレードオフに関する不確実性を踏まえ、追加検証の要否を判断したいです。,"Considering the uncertainty around the trade-off between technical and business aspects, I would like to decide whether additional validation is needed."
+会議進行,上級,不確実性が高い部分に関する不確実性を踏まえ、追加検証の要否を判断したいです。,"Considering the uncertainty around the areas with high uncertainty, I would like to decide whether additional validation is needed."
+会議進行,上級,今後の検証計画に関する不確実性を踏まえ、追加検証の要否を判断したいです。,"Considering the uncertainty around the future validation plan, I would like to decide whether additional validation is needed."
+会議進行,上級,経営判断に必要な情報に関する不確実性を踏まえ、追加検証の要否を判断したいです。,"Considering the uncertainty around the information needed for management decisions, I would like to decide whether additional validation is needed."
+会議進行,上級,会議後のコミュニケーション方法に関する不確実性を踏まえ、追加検証の要否を判断したいです。,"Considering the uncertainty around the communication approach after the meeting, I would like to decide whether additional validation is needed."
+会議進行,上級,関係者への説明方針に関する不確実性を踏まえ、追加検証の要否を判断したいです。,"Considering the uncertainty around the explanation strategy for stakeholders, I would like to decide whether additional validation is needed."
+会議進行,上級,論点の優先度付けに関する不確実性を踏まえ、追加検証の要否を判断したいです。,"Considering the uncertainty around the prioritization of discussion points, I would like to decide whether additional validation is needed."
+技術説明,初級,これは高温腐食に関する問題です。,This is an issue related to high-temperature corrosion.
+技術説明,初級,これは塩化物に関する問題です。,This is an issue related to chlorides.
+技術説明,初級,これは硫酸塩に関する問題です。,This is an issue related to sulfates.
+技術説明,初級,これは付着灰に関する問題です。,This is an issue related to deposited ash.
+技術説明,初級,これは金属温度に関する問題です。,This is an issue related to metal temperature.
+技術説明,初級,これは排ガス温度に関する問題です。,This is an issue related to flue gas temperature.
+技術説明,初級,これは過熱器チューブに関する問題です。,This is an issue related to superheater tubes.
+技術説明,初級,これはボイラ材料に関する問題です。,This is an issue related to boiler materials.
+技術説明,初級,これは腐食速度に関する問題です。,This is an issue related to the corrosion rate.
+技術説明,初級,これは表面分析に関する問題です。,This is an issue related to surface analysis.
+技術説明,初級,これはSEM観察に関する問題です。,This is an issue related to SEM observation.
+技術説明,初級,これはEPMA分析に関する問題です。,This is an issue related to EPMA analysis.
+技術説明,初級,これは飛灰に関する問題です。,This is an issue related to fly ash.
+技術説明,初級,これは燃焼条件に関する問題です。,This is an issue related to combustion conditions.
+技術説明,初級,これは酸素濃度に関する問題です。,This is an issue related to oxygen concentration.
+技術説明,初級,これは水分に関する問題です。,This is an issue related to moisture.
+技術説明,初級,これは運転条件に関する問題です。,This is an issue related to operating conditions.
+技術説明,初級,これは保護皮膜に関する問題です。,This is an issue related to protective scales.
+技術説明,初級,これは材料選定に関する問題です。,This is an issue related to material selection.
+技術説明,初級,これは補修方法に関する問題です。,This is an issue related to repair methods.
+技術説明,初級,高温腐食が原因の一つと考えられます。,high-temperature corrosion may be one of the causes.
+技術説明,初級,塩化物が原因の一つと考えられます。,chlorides may be one of the causes.
+技術説明,初級,硫酸塩が原因の一つと考えられます。,sulfates may be one of the causes.
+技術説明,初級,付着灰が原因の一つと考えられます。,deposited ash may be one of the causes.
+技術説明,初級,金属温度が原因の一つと考えられます。,metal temperature may be one of the causes.
+技術説明,初級,排ガス温度が原因の一つと考えられます。,flue gas temperature may be one of the causes.
+技術説明,初級,過熱器チューブが原因の一つと考えられます。,superheater tubes may be one of the causes.
+技術説明,初級,ボイラ材料が原因の一つと考えられます。,boiler materials may be one of the causes.
+技術説明,初級,腐食速度が原因の一つと考えられます。,the corrosion rate may be one of the causes.
+技術説明,初級,表面分析が原因の一つと考えられます。,surface analysis may be one of the causes.
+技術説明,初級,SEM観察が原因の一つと考えられます。,SEM observation may be one of the causes.
+技術説明,初級,EPMA分析が原因の一つと考えられます。,EPMA analysis may be one of the causes.
+技術説明,初級,飛灰が原因の一つと考えられます。,fly ash may be one of the causes.
+技術説明,初級,燃焼条件が原因の一つと考えられます。,combustion conditions may be one of the causes.
+技術説明,初級,酸素濃度が原因の一つと考えられます。,oxygen concentration may be one of the causes.
+技術説明,初級,水分が原因の一つと考えられます。,moisture may be one of the causes.
+技術説明,初級,運転条件が原因の一つと考えられます。,operating conditions may be one of the causes.
+技術説明,初級,保護皮膜が原因の一つと考えられます。,protective scales may be one of the causes.
+技術説明,初級,材料選定が原因の一つと考えられます。,material selection may be one of the causes.
+技術説明,初級,補修方法が原因の一つと考えられます。,repair methods may be one of the causes.
+技術説明,初級,高温腐食を確認する必要があります。,We need to check high-temperature corrosion.
+技術説明,初級,塩化物を確認する必要があります。,We need to check chlorides.
+技術説明,初級,硫酸塩を確認する必要があります。,We need to check sulfates.
+技術説明,初級,付着灰を確認する必要があります。,We need to check deposited ash.
+技術説明,初級,金属温度を確認する必要があります。,We need to check metal temperature.
+技術説明,初級,排ガス温度を確認する必要があります。,We need to check flue gas temperature.
+技術説明,初級,過熱器チューブを確認する必要があります。,We need to check superheater tubes.
+技術説明,初級,ボイラ材料を確認する必要があります。,We need to check boiler materials.
+技術説明,初級,腐食速度を確認する必要があります。,We need to check the corrosion rate.
+技術説明,初級,表面分析を確認する必要があります。,We need to check surface analysis.
+技術説明,初級,SEM観察を確認する必要があります。,We need to check SEM observation.
+技術説明,初級,EPMA分析を確認する必要があります。,We need to check EPMA analysis.
+技術説明,初級,飛灰を確認する必要があります。,We need to check fly ash.
+技術説明,初級,燃焼条件を確認する必要があります。,We need to check combustion conditions.
+技術説明,初級,酸素濃度を確認する必要があります。,We need to check oxygen concentration.
+技術説明,初級,水分を確認する必要があります。,We need to check moisture.
+技術説明,初級,運転条件を確認する必要があります。,We need to check operating conditions.
+技術説明,初級,保護皮膜を確認する必要があります。,We need to check protective scales.
+技術説明,初級,材料選定を確認する必要があります。,We need to check material selection.
+技術説明,初級,補修方法を確認する必要があります。,We need to check repair methods.
+技術説明,中級,塩化物による加速腐食が腐食挙動に影響している可能性があります。,chloride-induced accelerated corrosion may be affecting the corrosion behavior.
+技術説明,中級,灰中成分の影響が腐食挙動に影響している可能性があります。,the effect of ash components may be affecting the corrosion behavior.
+技術説明,中級,温度勾配が腐食挙動に影響している可能性があります。,the temperature gradient may be affecting the corrosion behavior.
+技術説明,中級,腐食生成物が腐食挙動に影響している可能性があります。,corrosion products may be affecting the corrosion behavior.
+技術説明,中級,局部腐食が腐食挙動に影響している可能性があります。,localized corrosion may be affecting the corrosion behavior.
+技術説明,中級,熱流束が腐食挙動に影響している可能性があります。,heat flux may be affecting the corrosion behavior.
+技術説明,中級,酸化皮膜の安定性が腐食挙動に影響している可能性があります。,the stability of oxide scales may be affecting the corrosion behavior.
+技術説明,中級,蒸気条件が腐食挙動に影響している可能性があります。,steam conditions may be affecting the corrosion behavior.
+技術説明,中級,実機サンプルが腐食挙動に影響している可能性があります。,field samples may be affecting the corrosion behavior.
+技術説明,中級,ラボ試験結果が腐食挙動に影響している可能性があります。,laboratory test results may be affecting the corrosion behavior.
+技術説明,中級,材料間の比較が腐食挙動に影響している可能性があります。,comparison among materials may be affecting the corrosion behavior.
+技術説明,中級,付着物の融点が腐食挙動に影響している可能性があります。,the melting point of deposits may be affecting the corrosion behavior.
+技術説明,中級,クリーニング周期が腐食挙動に影響している可能性があります。,the cleaning interval may be affecting the corrosion behavior.
+技術説明,中級,停止点検結果が腐食挙動に影響している可能性があります。,shutdown inspection results may be affecting the corrosion behavior.
+技術説明,中級,寿命評価が腐食挙動に影響している可能性があります。,remaining life assessment may be affecting the corrosion behavior.
+技術説明,中級,腐食マップが腐食挙動に影響している可能性があります。,the corrosion map may be affecting the corrosion behavior.
+技術説明,中級,灰の溶融挙動が腐食挙動に影響している可能性があります。,ash melting behavior may be affecting the corrosion behavior.
+技術説明,中級,塩素と硫黄の比率が腐食挙動に影響している可能性があります。,the chlorine-to-sulfur ratio may be affecting the corrosion behavior.
+技術説明,中級,設備信頼性が腐食挙動に影響している可能性があります。,equipment reliability may be affecting the corrosion behavior.
+技術説明,中級,予防保全が腐食挙動に影響している可能性があります。,preventive maintenance may be affecting the corrosion behavior.
+技術説明,中級,塩化物による加速腐食を考慮して結果を解釈する必要があります。,We need to interpret the results by considering chloride-induced accelerated corrosion.
+技術説明,中級,灰中成分の影響を考慮して結果を解釈する必要があります。,We need to interpret the results by considering the effect of ash components.
+技術説明,中級,温度勾配を考慮して結果を解釈する必要があります。,We need to interpret the results by considering the temperature gradient.
+技術説明,中級,腐食生成物を考慮して結果を解釈する必要があります。,We need to interpret the results by considering corrosion products.
+技術説明,中級,局部腐食を考慮して結果を解釈する必要があります。,We need to interpret the results by considering localized corrosion.
+技術説明,中級,熱流束を考慮して結果を解釈する必要があります。,We need to interpret the results by considering heat flux.
+技術説明,中級,酸化皮膜の安定性を考慮して結果を解釈する必要があります。,We need to interpret the results by considering the stability of oxide scales.
+技術説明,中級,蒸気条件を考慮して結果を解釈する必要があります。,We need to interpret the results by considering steam conditions.
+技術説明,中級,実機サンプルを考慮して結果を解釈する必要があります。,We need to interpret the results by considering field samples.
+技術説明,中級,ラボ試験結果を考慮して結果を解釈する必要があります。,We need to interpret the results by considering laboratory test results.
+技術説明,中級,材料間の比較を考慮して結果を解釈する必要があります。,We need to interpret the results by considering comparison among materials.
+技術説明,中級,付着物の融点を考慮して結果を解釈する必要があります。,We need to interpret the results by considering the melting point of deposits.
+技術説明,中級,クリーニング周期を考慮して結果を解釈する必要があります。,We need to interpret the results by considering the cleaning interval.
+技術説明,中級,停止点検結果を考慮して結果を解釈する必要があります。,We need to interpret the results by considering shutdown inspection results.
+技術説明,中級,寿命評価を考慮して結果を解釈する必要があります。,We need to interpret the results by considering remaining life assessment.
+技術説明,中級,腐食マップを考慮して結果を解釈する必要があります。,We need to interpret the results by considering the corrosion map.
+技術説明,中級,灰の溶融挙動を考慮して結果を解釈する必要があります。,We need to interpret the results by considering ash melting behavior.
+技術説明,中級,塩素と硫黄の比率を考慮して結果を解釈する必要があります。,We need to interpret the results by considering the chlorine-to-sulfur ratio.
+技術説明,中級,設備信頼性を考慮して結果を解釈する必要があります。,We need to interpret the results by considering equipment reliability.
+技術説明,中級,予防保全を考慮して結果を解釈する必要があります。,We need to interpret the results by considering preventive maintenance.
+技術説明,中級,塩化物による加速腐食について、実機条件との関係を確認します。,We will check the relationship between chloride-induced accelerated corrosion and actual plant conditions.
+技術説明,中級,灰中成分の影響について、実機条件との関係を確認します。,We will check the relationship between the effect of ash components and actual plant conditions.
+技術説明,中級,温度勾配について、実機条件との関係を確認します。,We will check the relationship between the temperature gradient and actual plant conditions.
+技術説明,中級,腐食生成物について、実機条件との関係を確認します。,We will check the relationship between corrosion products and actual plant conditions.
+技術説明,中級,局部腐食について、実機条件との関係を確認します。,We will check the relationship between localized corrosion and actual plant conditions.
+技術説明,中級,熱流束について、実機条件との関係を確認します。,We will check the relationship between heat flux and actual plant conditions.
+技術説明,中級,酸化皮膜の安定性について、実機条件との関係を確認します。,We will check the relationship between the stability of oxide scales and actual plant conditions.
+技術説明,中級,蒸気条件について、実機条件との関係を確認します。,We will check the relationship between steam conditions and actual plant conditions.
+技術説明,中級,実機サンプルについて、実機条件との関係を確認します。,We will check the relationship between field samples and actual plant conditions.
+技術説明,中級,ラボ試験結果について、実機条件との関係を確認します。,We will check the relationship between laboratory test results and actual plant conditions.
+技術説明,中級,材料間の比較について、実機条件との関係を確認します。,We will check the relationship between comparison among materials and actual plant conditions.
+技術説明,中級,付着物の融点について、実機条件との関係を確認します。,We will check the relationship between the melting point of deposits and actual plant conditions.
+技術説明,中級,クリーニング周期について、実機条件との関係を確認します。,We will check the relationship between the cleaning interval and actual plant conditions.
+技術説明,中級,停止点検結果について、実機条件との関係を確認します。,We will check the relationship between shutdown inspection results and actual plant conditions.
+技術説明,中級,寿命評価について、実機条件との関係を確認します。,We will check the relationship between remaining life assessment and actual plant conditions.
+技術説明,中級,腐食マップについて、実機条件との関係を確認します。,We will check the relationship between the corrosion map and actual plant conditions.
+技術説明,中級,灰の溶融挙動について、実機条件との関係を確認します。,We will check the relationship between ash melting behavior and actual plant conditions.
+技術説明,中級,塩素と硫黄の比率について、実機条件との関係を確認します。,We will check the relationship between the chlorine-to-sulfur ratio and actual plant conditions.
+技術説明,中級,設備信頼性について、実機条件との関係を確認します。,We will check the relationship between equipment reliability and actual plant conditions.
+技術説明,中級,予防保全について、実機条件との関係を確認します。,We will check the relationship between preventive maintenance and actual plant conditions.
+技術説明,中級,塩化物による加速腐食の影響を切り分けるため、追加試験が必要です。,Additional tests are needed to isolate the effect of chloride-induced accelerated corrosion.
+技術説明,中級,灰中成分の影響の影響を切り分けるため、追加試験が必要です。,Additional tests are needed to isolate the effect of the effect of ash components.
+技術説明,中級,温度勾配の影響を切り分けるため、追加試験が必要です。,Additional tests are needed to isolate the effect of the temperature gradient.
+技術説明,中級,腐食生成物の影響を切り分けるため、追加試験が必要です。,Additional tests are needed to isolate the effect of corrosion products.
+技術説明,中級,局部腐食の影響を切り分けるため、追加試験が必要です。,Additional tests are needed to isolate the effect of localized corrosion.
+技術説明,中級,熱流束の影響を切り分けるため、追加試験が必要です。,Additional tests are needed to isolate the effect of heat flux.
+技術説明,中級,酸化皮膜の安定性の影響を切り分けるため、追加試験が必要です。,Additional tests are needed to isolate the effect of the stability of oxide scales.
+技術説明,中級,蒸気条件の影響を切り分けるため、追加試験が必要です。,Additional tests are needed to isolate the effect of steam conditions.
+技術説明,中級,実機サンプルの影響を切り分けるため、追加試験が必要です。,Additional tests are needed to isolate the effect of field samples.
+技術説明,中級,ラボ試験結果の影響を切り分けるため、追加試験が必要です。,Additional tests are needed to isolate the effect of laboratory test results.
+技術説明,中級,材料間の比較の影響を切り分けるため、追加試験が必要です。,Additional tests are needed to isolate the effect of comparison among materials.
+技術説明,中級,付着物の融点の影響を切り分けるため、追加試験が必要です。,Additional tests are needed to isolate the effect of the melting point of deposits.
+技術説明,中級,クリーニング周期の影響を切り分けるため、追加試験が必要です。,Additional tests are needed to isolate the effect of the cleaning interval.
+技術説明,中級,停止点検結果の影響を切り分けるため、追加試験が必要です。,Additional tests are needed to isolate the effect of shutdown inspection results.
+技術説明,中級,寿命評価の影響を切り分けるため、追加試験が必要です。,Additional tests are needed to isolate the effect of remaining life assessment.
+技術説明,中級,腐食マップの影響を切り分けるため、追加試験が必要です。,Additional tests are needed to isolate the effect of the corrosion map.
+技術説明,中級,灰の溶融挙動の影響を切り分けるため、追加試験が必要です。,Additional tests are needed to isolate the effect of ash melting behavior.
+技術説明,中級,塩素と硫黄の比率の影響を切り分けるため、追加試験が必要です。,Additional tests are needed to isolate the effect of the chlorine-to-sulfur ratio.
+技術説明,中級,設備信頼性の影響を切り分けるため、追加試験が必要です。,Additional tests are needed to isolate the effect of equipment reliability.
+技術説明,中級,予防保全の影響を切り分けるため、追加試験が必要です。,Additional tests are needed to isolate the effect of preventive maintenance.
+技術説明,上級,高温腐食メカニズムの仮説を定量的に評価することで、保全判断の精度を高められます。,"By quantitatively evaluating the hypothesis for the high-temperature corrosion mechanism, we can improve the accuracy of maintenance decisions."
+技術説明,上級,実機データとラボデータの整合性を定量的に評価することで、保全判断の精度を高められます。,"By quantitatively evaluating the consistency between field data and laboratory data, we can improve the accuracy of maintenance decisions."
+技術説明,上級,材料劣化と運転条件の相関を定量的に評価することで、保全判断の精度を高められます。,"By quantitatively evaluating the correlation between material degradation and operating conditions, we can improve the accuracy of maintenance decisions."
+技術説明,上級,腐食リスクの定量化を定量的に評価することで、保全判断の精度を高められます。,"By quantitatively evaluating quantification of corrosion risk, we can improve the accuracy of maintenance decisions."
+技術説明,上級,長期的な寿命予測を定量的に評価することで、保全判断の精度を高められます。,"By quantitatively evaluating long-term lifetime prediction, we can improve the accuracy of maintenance decisions."
+技術説明,上級,プラント運用への影響を定量的に評価することで、保全判断の精度を高められます。,"By quantitatively evaluating the impact on plant operation, we can improve the accuracy of maintenance decisions."
+技術説明,上級,灰付着と伝熱低下の関係を定量的に評価することで、保全判断の精度を高められます。,"By quantitatively evaluating the relationship between ash deposition and heat-transfer degradation, we can improve the accuracy of maintenance decisions."
+技術説明,上級,複数要因の切り分けを定量的に評価することで、保全判断の精度を高められます。,"By quantitatively evaluating separation of multiple contributing factors, we can improve the accuracy of maintenance decisions."
+技術説明,上級,補修判断の技術的根拠を定量的に評価することで、保全判断の精度を高められます。,"By quantitatively evaluating the technical basis for repair decisions, we can improve the accuracy of maintenance decisions."
+技術説明,上級,材料変更の費用対効果を定量的に評価することで、保全判断の精度を高められます。,"By quantitatively evaluating the cost-effectiveness of material replacement, we can improve the accuracy of maintenance decisions."
+技術説明,上級,実証試験の設計を定量的に評価することで、保全判断の精度を高められます。,"By quantitatively evaluating the design of the demonstration test, we can improve the accuracy of maintenance decisions."
+技術説明,上級,腐食抑制策の優先順位を定量的に評価することで、保全判断の精度を高められます。,"By quantitatively evaluating prioritization of corrosion mitigation measures, we can improve the accuracy of maintenance decisions."
+技術説明,上級,統計的なばらつきを定量的に評価することで、保全判断の精度を高められます。,"By quantitatively evaluating statistical variability, we can improve the accuracy of maintenance decisions."
+技術説明,上級,現場制約下での検証方法を定量的に評価することで、保全判断の精度を高められます。,"By quantitatively evaluating validation under field constraints, we can improve the accuracy of maintenance decisions."
+技術説明,上級,経年変化の評価を定量的に評価することで、保全判断の精度を高められます。,"By quantitatively evaluating evaluation of aging effects, we can improve the accuracy of maintenance decisions."
+技術説明,上級,高温腐食メカニズムの仮説は単独要因ではなく、複数要因と相互作用している可能性があります。,the hypothesis for the high-temperature corrosion mechanism may not be an independent factor but may interact with multiple factors.
+技術説明,上級,実機データとラボデータの整合性は単独要因ではなく、複数要因と相互作用している可能性があります。,the consistency between field data and laboratory data may not be an independent factor but may interact with multiple factors.
+技術説明,上級,材料劣化と運転条件の相関は単独要因ではなく、複数要因と相互作用している可能性があります。,the correlation between material degradation and operating conditions may not be an independent factor but may interact with multiple factors.
+技術説明,上級,腐食リスクの定量化は単独要因ではなく、複数要因と相互作用している可能性があります。,quantification of corrosion risk may not be an independent factor but may interact with multiple factors.
+技術説明,上級,長期的な寿命予測は単独要因ではなく、複数要因と相互作用している可能性があります。,long-term lifetime prediction may not be an independent factor but may interact with multiple factors.
+技術説明,上級,プラント運用への影響は単独要因ではなく、複数要因と相互作用している可能性があります。,the impact on plant operation may not be an independent factor but may interact with multiple factors.
+技術説明,上級,灰付着と伝熱低下の関係は単独要因ではなく、複数要因と相互作用している可能性があります。,the relationship between ash deposition and heat-transfer degradation may not be an independent factor but may interact with multiple factors.
+技術説明,上級,複数要因の切り分けは単独要因ではなく、複数要因と相互作用している可能性があります。,separation of multiple contributing factors may not be an independent factor but may interact with multiple factors.
+技術説明,上級,補修判断の技術的根拠は単独要因ではなく、複数要因と相互作用している可能性があります。,the technical basis for repair decisions may not be an independent factor but may interact with multiple factors.
+技術説明,上級,材料変更の費用対効果は単独要因ではなく、複数要因と相互作用している可能性があります。,the cost-effectiveness of material replacement may not be an independent factor but may interact with multiple factors.
+技術説明,上級,実証試験の設計は単独要因ではなく、複数要因と相互作用している可能性があります。,the design of the demonstration test may not be an independent factor but may interact with multiple factors.
+技術説明,上級,腐食抑制策の優先順位は単独要因ではなく、複数要因と相互作用している可能性があります。,prioritization of corrosion mitigation measures may not be an independent factor but may interact with multiple factors.
+技術説明,上級,統計的なばらつきは単独要因ではなく、複数要因と相互作用している可能性があります。,statistical variability may not be an independent factor but may interact with multiple factors.
+技術説明,上級,現場制約下での検証方法は単独要因ではなく、複数要因と相互作用している可能性があります。,validation under field constraints may not be an independent factor but may interact with multiple factors.
+技術説明,上級,経年変化の評価は単独要因ではなく、複数要因と相互作用している可能性があります。,evaluation of aging effects may not be an independent factor but may interact with multiple factors.
+技術説明,上級,高温腐食メカニズムの仮説を実機データと照合し、仮説の妥当性を検証したいです。,I would like to compare the hypothesis for the high-temperature corrosion mechanism with field data to validate the hypothesis.
+技術説明,上級,実機データとラボデータの整合性を実機データと照合し、仮説の妥当性を検証したいです。,I would like to compare the consistency between field data and laboratory data with field data to validate the hypothesis.
+技術説明,上級,材料劣化と運転条件の相関を実機データと照合し、仮説の妥当性を検証したいです。,I would like to compare the correlation between material degradation and operating conditions with field data to validate the hypothesis.
+技術説明,上級,腐食リスクの定量化を実機データと照合し、仮説の妥当性を検証したいです。,I would like to compare quantification of corrosion risk with field data to validate the hypothesis.
+技術説明,上級,長期的な寿命予測を実機データと照合し、仮説の妥当性を検証したいです。,I would like to compare long-term lifetime prediction with field data to validate the hypothesis.
+技術説明,上級,プラント運用への影響を実機データと照合し、仮説の妥当性を検証したいです。,I would like to compare the impact on plant operation with field data to validate the hypothesis.
+技術説明,上級,灰付着と伝熱低下の関係を実機データと照合し、仮説の妥当性を検証したいです。,I would like to compare the relationship between ash deposition and heat-transfer degradation with field data to validate the hypothesis.
+技術説明,上級,複数要因の切り分けを実機データと照合し、仮説の妥当性を検証したいです。,I would like to compare separation of multiple contributing factors with field data to validate the hypothesis.
+技術説明,上級,補修判断の技術的根拠を実機データと照合し、仮説の妥当性を検証したいです。,I would like to compare the technical basis for repair decisions with field data to validate the hypothesis.
+技術説明,上級,材料変更の費用対効果を実機データと照合し、仮説の妥当性を検証したいです。,I would like to compare the cost-effectiveness of material replacement with field data to validate the hypothesis.
+技術説明,上級,実証試験の設計を実機データと照合し、仮説の妥当性を検証したいです。,I would like to compare the design of the demonstration test with field data to validate the hypothesis.
+技術説明,上級,腐食抑制策の優先順位を実機データと照合し、仮説の妥当性を検証したいです。,I would like to compare prioritization of corrosion mitigation measures with field data to validate the hypothesis.
+技術説明,上級,統計的なばらつきを実機データと照合し、仮説の妥当性を検証したいです。,I would like to compare statistical variability with field data to validate the hypothesis.
+技術説明,上級,現場制約下での検証方法を実機データと照合し、仮説の妥当性を検証したいです。,I would like to compare validation under field constraints with field data to validate the hypothesis.
+技術説明,上級,経年変化の評価を実機データと照合し、仮説の妥当性を検証したいです。,I would like to compare evaluation of aging effects with field data to validate the hypothesis.
+技術説明,上級,高温腐食メカニズムの仮説の不確実性を考慮し、保守的な判断が必要です。,"Considering the uncertainty in the hypothesis for the high-temperature corrosion mechanism, a conservative decision is necessary."
+技術説明,上級,実機データとラボデータの整合性の不確実性を考慮し、保守的な判断が必要です。,"Considering the uncertainty in the consistency between field data and laboratory data, a conservative decision is necessary."
+技術説明,上級,材料劣化と運転条件の相関の不確実性を考慮し、保守的な判断が必要です。,"Considering the uncertainty in the correlation between material degradation and operating conditions, a conservative decision is necessary."
+技術説明,上級,腐食リスクの定量化の不確実性を考慮し、保守的な判断が必要です。,"Considering the uncertainty in quantification of corrosion risk, a conservative decision is necessary."
+技術説明,上級,長期的な寿命予測の不確実性を考慮し、保守的な判断が必要です。,"Considering the uncertainty in long-term lifetime prediction, a conservative decision is necessary."
+技術説明,上級,プラント運用への影響の不確実性を考慮し、保守的な判断が必要です。,"Considering the uncertainty in the impact on plant operation, a conservative decision is necessary."
+技術説明,上級,灰付着と伝熱低下の関係の不確実性を考慮し、保守的な判断が必要です。,"Considering the uncertainty in the relationship between ash deposition and heat-transfer degradation, a conservative decision is necessary."
+技術説明,上級,複数要因の切り分けの不確実性を考慮し、保守的な判断が必要です。,"Considering the uncertainty in separation of multiple contributing factors, a conservative decision is necessary."
+技術説明,上級,補修判断の技術的根拠の不確実性を考慮し、保守的な判断が必要です。,"Considering the uncertainty in the technical basis for repair decisions, a conservative decision is necessary."
+技術説明,上級,材料変更の費用対効果の不確実性を考慮し、保守的な判断が必要です。,"Considering the uncertainty in the cost-effectiveness of material replacement, a conservative decision is necessary."
+技術説明,上級,実証試験の設計の不確実性を考慮し、保守的な判断が必要です。,"Considering the uncertainty in the design of the demonstration test, a conservative decision is necessary."
+技術説明,上級,腐食抑制策の優先順位の不確実性を考慮し、保守的な判断が必要です。,"Considering the uncertainty in prioritization of corrosion mitigation measures, a conservative decision is necessary."
+技術説明,上級,統計的なばらつきの不確実性を考慮し、保守的な判断が必要です。,"Considering the uncertainty in statistical variability, a conservative decision is necessary."
+技術説明,上級,現場制約下での検証方法の不確実性を考慮し、保守的な判断が必要です。,"Considering the uncertainty in validation under field constraints, a conservative decision is necessary."
+技術説明,上級,経年変化の評価の不確実性を考慮し、保守的な判断が必要です。,"Considering the uncertainty in evaluation of aging effects, a conservative decision is necessary."
+海外出張,初級,チェックインはどこですか。,Where is check-in?
+海外出張,初級,領収書はどこですか。,Where is a receipt?
+海外出張,初級,タクシー乗り場はどこですか。,Where is the taxi stand?
+海外出張,初級,予約はどこですか。,Where is my reservation?
+海外出張,初級,朝食の時間はどこですか。,Where is breakfast time?
+海外出張,初級,Wi-Fiはどこですか。,Where is Wi-Fi?
+海外出張,初級,会議場所はどこですか。,Where is the meeting venue?
+海外出張,初級,最寄り駅はどこですか。,Where is the nearest station?
+海外出張,初級,支払い方法はどこですか。,Where is the payment method?
+海外出張,初級,荷物はどこですか。,Where is my luggage?
+海外出張,初級,空港行きの電車はどこですか。,Where is the train to the airport?
+海外出張,初級,ホテルの住所はどこですか。,Where is the hotel address?
+海外出張,初級,水はどこですか。,Where is some water?
+海外出張,初級,メニューはどこですか。,Where is the menu?
+海外出張,初級,おすすめ料理はどこですか。,Where is your recommendation?
+海外出張,初級,チェックインをお願いします。,"I would like check-in, please."
+海外出張,初級,領収書をお願いします。,"I would like a receipt, please."
+海外出張,初級,タクシー乗り場をお願いします。,"I would like the taxi stand, please."
+海外出張,初級,予約をお願いします。,"I would like my reservation, please."
+海外出張,初級,朝食の時間をお願いします。,"I would like breakfast time, please."
+海外出張,初級,Wi-Fiをお願いします。,"I would like Wi-Fi, please."
+海外出張,初級,会議場所をお願いします。,"I would like the meeting venue, please."
+海外出張,初級,最寄り駅をお願いします。,"I would like the nearest station, please."
+海外出張,初級,支払い方法をお願いします。,"I would like the payment method, please."
+海外出張,初級,荷物をお願いします。,"I would like my luggage, please."
+海外出張,初級,空港行きの電車をお願いします。,"I would like the train to the airport, please."
+海外出張,初級,ホテルの住所をお願いします。,"I would like the hotel address, please."
+海外出張,初級,水をお願いします。,"I would like some water, please."
+海外出張,初級,メニューをお願いします。,"I would like the menu, please."
+海外出張,初級,おすすめ料理をお願いします。,"I would like your recommendation, please."
+海外出張,初級,チェックインを確認したいです。,I would like to check check-in.
+海外出張,初級,領収書を確認したいです。,I would like to check a receipt.
+海外出張,初級,タクシー乗り場を確認したいです。,I would like to check the taxi stand.
+海外出張,初級,予約を確認したいです。,I would like to check my reservation.
+海外出張,初級,朝食の時間を確認したいです。,I would like to check breakfast time.
+海外出張,中級,予定より早く到着しました。,I arrived earlier than scheduled.
+海外出張,中級,予約名を確認してください。,please check the reservation name.
+海外出張,中級,領収書に会社名を入れてください。,please include my company name on the receipt.
+海外出張,中級,会議室まで案内してください。,please guide me to the meeting room.
+海外出張,中級,少し遅れそうです。,I may be slightly late.
+海外出張,中級,食事制限があります。,I have dietary restrictions.
+海外出張,中級,この住所までお願いします。,please take me to this address.
+海外出張,中級,荷物を預かってください。,please keep my luggage.
+海外出張,中級,空港までの所要時間を教えてください。,please tell me how long it takes to the airport.
+海外出張,中級,静かな席をお願いします。,I would like a quiet seat.
+海外出張,中級,予定より早く到着しました。お願いできますか。,I arrived earlier than scheduled. Could you help me with that?
+海外出張,中級,予約名を確認してください。お願いできますか。,please check the reservation name. Could you help me with that?
+海外出張,中級,領収書に会社名を入れてください。お願いできますか。,please include my company name on the receipt. Could you help me with that?
+海外出張,中級,会議室まで案内してください。お願いできますか。,please guide me to the meeting room. Could you help me with that?
+海外出張,中級,少し遅れそうです。お願いできますか。,I may be slightly late. Could you help me with that?
+海外出張,中級,食事制限があります。お願いできますか。,I have dietary restrictions. Could you help me with that?
+海外出張,中級,この住所までお願いします。お願いできますか。,please take me to this address. Could you help me with that?
+海外出張,中級,荷物を預かってください。お願いできますか。,please keep my luggage. Could you help me with that?
+海外出張,中級,空港までの所要時間を教えてください。お願いできますか。,please tell me how long it takes to the airport. Could you help me with that?
+海外出張,中級,静かな席をお願いします。お願いできますか。,I would like a quiet seat. Could you help me with that?
+海外出張,中級,予定より早く到着しました。確認していただけますか。,I arrived earlier than scheduled. Could you check that for me?
+海外出張,中級,予約名を確認してください。確認していただけますか。,please check the reservation name. Could you check that for me?
+海外出張,中級,領収書に会社名を入れてください。確認していただけますか。,please include my company name on the receipt. Could you check that for me?
+海外出張,中級,会議室まで案内してください。確認していただけますか。,please guide me to the meeting room. Could you check that for me?
+海外出張,中級,少し遅れそうです。確認していただけますか。,I may be slightly late. Could you check that for me?
+海外出張,中級,食事制限があります。確認していただけますか。,I have dietary restrictions. Could you check that for me?
+海外出張,中級,この住所までお願いします。確認していただけますか。,please take me to this address. Could you check that for me?
+海外出張,中級,荷物を預かってください。確認していただけますか。,please keep my luggage. Could you check that for me?
+海外出張,中級,空港までの所要時間を教えてください。確認していただけますか。,please tell me how long it takes to the airport. Could you check that for me?
+海外出張,中級,静かな席をお願いします。確認していただけますか。,I would like a quiet seat. Could you check that for me?
+海外出張,中級,予定より早く到着しました。可能でしょうか。,I arrived earlier than scheduled. Would that be possible?
+海外出張,中級,予約名を確認してください。可能でしょうか。,please check the reservation name. Would that be possible?
+海外出張,中級,領収書に会社名を入れてください。可能でしょうか。,please include my company name on the receipt. Would that be possible?
+海外出張,中級,会議室まで案内してください。可能でしょうか。,please guide me to the meeting room. Would that be possible?
+海外出張,中級,少し遅れそうです。可能でしょうか。,I may be slightly late. Would that be possible?
+海外出張,上級,予定が変更になったため予約を変更したいです。,"my schedule has changed, so I would like to modify my reservation."
+海外出張,上級,領収書の宛名を会社名に変更できますか。,could you change the name on the receipt to my company name.
+海外出張,上級,会議開始までに到着できるルートを教えてください。,please suggest a route that will get me there before the meeting starts.
+海外出張,上級,可能であれば早めにチェックインしたいです。,"if possible, I would like to check in earlier."
+海外出張,上級,遅延した場合の代替手段を確認したいです。,I would like to check alternative options in case of delay.
+海外出張,上級,この条件に合うレストランを探しています。,I am looking for a restaurant that meets these conditions.
+海外出張,上級,現地の交通事情を踏まえて出発時間を決めたいです。,I would like to decide the departure time based on local traffic conditions.
+海外出張,上級,予定変更について相手先に連絡したいです。,I would like to inform the other party about the schedule change.
+海外出張,上級,予定が変更になったため予約を変更したいです。必要な手続きがあれば教えてください。,"my schedule has changed, so I would like to modify my reservation. Please let me know if any procedure is required."
+海外出張,上級,領収書の宛名を会社名に変更できますか。必要な手続きがあれば教えてください。,could you change the name on the receipt to my company name. Please let me know if any procedure is required.
+海外出張,上級,会議開始までに到着できるルートを教えてください。必要な手続きがあれば教えてください。,please suggest a route that will get me there before the meeting starts. Please let me know if any procedure is required.
+海外出張,上級,可能であれば早めにチェックインしたいです。必要な手続きがあれば教えてください。,"if possible, I would like to check in earlier. Please let me know if any procedure is required."
+海外出張,上級,遅延した場合の代替手段を確認したいです。必要な手続きがあれば教えてください。,I would like to check alternative options in case of delay. Please let me know if any procedure is required.
+海外出張,上級,この条件に合うレストランを探しています。必要な手続きがあれば教えてください。,I am looking for a restaurant that meets these conditions. Please let me know if any procedure is required.
+海外出張,上級,現地の交通事情を踏まえて出発時間を決めたいです。必要な手続きがあれば教えてください。,I would like to decide the departure time based on local traffic conditions. Please let me know if any procedure is required.
+海外出張,上級,予定変更について相手先に連絡したいです。必要な手続きがあれば教えてください。,I would like to inform the other party about the schedule change. Please let me know if any procedure is required.
+海外出張,上級,予定が変更になったため予約を変更したいです。最も確実な方法を教えてください。,"my schedule has changed, so I would like to modify my reservation. Please tell me the most reliable way to do that."
+海外出張,上級,領収書の宛名を会社名に変更できますか。最も確実な方法を教えてください。,could you change the name on the receipt to my company name. Please tell me the most reliable way to do that.
+海外出張,上級,会議開始までに到着できるルートを教えてください。最も確実な方法を教えてください。,please suggest a route that will get me there before the meeting starts. Please tell me the most reliable way to do that.
+海外出張,上級,可能であれば早めにチェックインしたいです。最も確実な方法を教えてください。,"if possible, I would like to check in earlier. Please tell me the most reliable way to do that."
+海外出張,上級,遅延した場合の代替手段を確認したいです。最も確実な方法を教えてください。,I would like to check alternative options in case of delay. Please tell me the most reliable way to do that.
+海外出張,上級,この条件に合うレストランを探しています。最も確実な方法を教えてください。,I am looking for a restaurant that meets these conditions. Please tell me the most reliable way to do that.
+海外出張,上級,現地の交通事情を踏まえて出発時間を決めたいです。最も確実な方法を教えてください。,I would like to decide the departure time based on local traffic conditions. Please tell me the most reliable way to do that.
+海外出張,上級,予定変更について相手先に連絡したいです。最も確実な方法を教えてください。,I would like to inform the other party about the schedule change. Please tell me the most reliable way to do that.
+海外出張,上級,予定が変更になったため予約を変更したいです。時間に余裕を持った選択肢を知りたいです。,"my schedule has changed, so I would like to modify my reservation. I would like to know an option with enough time margin."
+海外出張,上級,領収書の宛名を会社名に変更できますか。時間に余裕を持った選択肢を知りたいです。,could you change the name on the receipt to my company name. I would like to know an option with enough time margin.
+海外出張,上級,会議開始までに到着できるルートを教えてください。時間に余裕を持った選択肢を知りたいです。,please suggest a route that will get me there before the meeting starts. I would like to know an option with enough time margin.
+海外出張,上級,可能であれば早めにチェックインしたいです。時間に余裕を持った選択肢を知りたいです。,"if possible, I would like to check in earlier. I would like to know an option with enough time margin."
+海外出張,上級,遅延した場合の代替手段を確認したいです。時間に余裕を持った選択肢を知りたいです。,I would like to check alternative options in case of delay. I would like to know an option with enough time margin.
+海外出張,上級,この条件に合うレストランを探しています。時間に余裕を持った選択肢を知りたいです。,I am looking for a restaurant that meets these conditions. I would like to know an option with enough time margin.
+質疑応答,初級,質問を確認します。,I will check question.
+質疑応答,初級,答えを確認します。,I will check answer.
+質疑応答,初級,資料を確認します。,I will check material.
+質疑応答,初級,データを確認します。,I will check data.
+質疑応答,初級,結果を確認します。,I will check result.
+質疑応答,初級,理由を確認します。,I will check reason.
+質疑応答,初級,条件を確認します。,I will check conditions.
+質疑応答,初級,前提を確認します。,I will check assumptions.
+質疑応答,初級,スケジュールを確認します。,I will check schedule.
+質疑応答,初級,担当者を確認します。,I will check person in charge.
+質疑応答,初級,次のステップを確認します。,I will check next step.
+質疑応答,初級,結論を確認します。,I will check conclusion.
+質疑応答,初級,詳細を確認します。,I will check details.
+質疑応答,初級,背景を確認します。,I will check background.
+質疑応答,初級,確認事項を確認します。,I will check items to confirm.
+質疑応答,初級,質問について説明します。,I will explain question.
+質疑応答,初級,答えについて説明します。,I will explain answer.
+質疑応答,初級,資料について説明します。,I will explain material.
+質疑応答,初級,データについて説明します。,I will explain data.
+質疑応答,初級,結果について説明します。,I will explain result.
+質疑応答,初級,理由について説明します。,I will explain reason.
+質疑応答,初級,条件について説明します。,I will explain conditions.
+質疑応答,初級,前提について説明します。,I will explain assumptions.
+質疑応答,初級,スケジュールについて説明します。,I will explain schedule.
+質疑応答,初級,担当者について説明します。,I will explain person in charge.
+質疑応答,初級,次のステップについて説明します。,I will explain next step.
+質疑応答,初級,結論について説明します。,I will explain conclusion.
+質疑応答,初級,詳細について説明します。,I will explain details.
+質疑応答,初級,背景について説明します。,I will explain background.
+質疑応答,初級,確認事項について説明します。,I will explain items to confirm.
+質疑応答,初級,質問を後ほど共有します。,I will share question later.
+質疑応答,初級,答えを後ほど共有します。,I will share answer later.
+質疑応答,初級,資料を後ほど共有します。,I will share material later.
+質疑応答,初級,データを後ほど共有します。,I will share data later.
+質疑応答,初級,結果を後ほど共有します。,I will share result later.
+質疑応答,中級,いただいた質問については、現時点ではこのように理解しています。,"Regarding your question, this is our current understanding."
+質疑応答,中級,今のご指摘については、現時点ではこのように理解しています。,"Regarding your point, this is our current understanding."
+質疑応答,中級,この結果の解釈については、現時点ではこのように理解しています。,"Regarding the interpretation of this result, this is our current understanding."
+質疑応答,中級,追加確認が必要な点については、現時点ではこのように理解しています。,"Regarding the points that require additional confirmation, this is our current understanding."
+質疑応答,中級,こちらの理解については、現時点ではこのように理解しています。,"Regarding our understanding, this is our current understanding."
+質疑応答,中級,前提条件の違いについては、現時点ではこのように理解しています。,"Regarding differences in assumptions, this is our current understanding."
+質疑応答,中級,データのばらつきについては、現時点ではこのように理解しています。,"Regarding data variability, this is our current understanding."
+質疑応答,中級,根拠となる情報については、現時点ではこのように理解しています。,"Regarding the supporting information, this is our current understanding."
+質疑応答,中級,次回までの宿題については、現時点ではこのように理解しています。,"Regarding homework before the next meeting, this is our current understanding."
+質疑応答,中級,検証方法については、現時点ではこのように理解しています。,"Regarding the validation method, this is our current understanding."
+質疑応答,中級,いただいた質問について、追加で確認してから回答します。,I will check your question further and get back to you.
+質疑応答,中級,今のご指摘について、追加で確認してから回答します。,I will check your point further and get back to you.
+質疑応答,中級,この結果の解釈について、追加で確認してから回答します。,I will check the interpretation of this result further and get back to you.
+質疑応答,中級,追加確認が必要な点について、追加で確認してから回答します。,I will check the points that require additional confirmation further and get back to you.
+質疑応答,中級,こちらの理解について、追加で確認してから回答します。,I will check our understanding further and get back to you.
+質疑応答,中級,前提条件の違いについて、追加で確認してから回答します。,I will check differences in assumptions further and get back to you.
+質疑応答,中級,データのばらつきについて、追加で確認してから回答します。,I will check data variability further and get back to you.
+質疑応答,中級,根拠となる情報について、追加で確認してから回答します。,I will check the supporting information further and get back to you.
+質疑応答,中級,次回までの宿題について、追加で確認してから回答します。,I will check homework before the next meeting further and get back to you.
+質疑応答,中級,検証方法について、追加で確認してから回答します。,I will check the validation method further and get back to you.
+質疑応答,中級,いただいた質問を明確にするため、もう少し情報が必要です。,We need a little more information to clarify your question.
+質疑応答,中級,今のご指摘を明確にするため、もう少し情報が必要です。,We need a little more information to clarify your point.
+質疑応答,中級,この結果の解釈を明確にするため、もう少し情報が必要です。,We need a little more information to clarify the interpretation of this result.
+質疑応答,中級,追加確認が必要な点を明確にするため、もう少し情報が必要です。,We need a little more information to clarify the points that require additional confirmation.
+質疑応答,中級,こちらの理解を明確にするため、もう少し情報が必要です。,We need a little more information to clarify our understanding.
+質疑応答,中級,前提条件の違いを明確にするため、もう少し情報が必要です。,We need a little more information to clarify differences in assumptions.
+質疑応答,中級,データのばらつきを明確にするため、もう少し情報が必要です。,We need a little more information to clarify data variability.
+質疑応答,中級,根拠となる情報を明確にするため、もう少し情報が必要です。,We need a little more information to clarify the supporting information.
+質疑応答,中級,次回までの宿題を明確にするため、もう少し情報が必要です。,We need a little more information to clarify homework before the next meeting.
+質疑応答,中級,検証方法を明確にするため、もう少し情報が必要です。,We need a little more information to clarify the validation method.
+質疑応答,中級,いただいた質問について、ご指摘の点は重要だと思います。,I think your point about your question is important.
+質疑応答,中級,今のご指摘について、ご指摘の点は重要だと思います。,I think your point about your point is important.
+質疑応答,中級,この結果の解釈について、ご指摘の点は重要だと思います。,I think your point about the interpretation of this result is important.
+質疑応答,中級,追加確認が必要な点について、ご指摘の点は重要だと思います。,I think your point about the points that require additional confirmation is important.
+質疑応答,中級,こちらの理解について、ご指摘の点は重要だと思います。,I think your point about our understanding is important.
+質疑応答,上級,現時点での仮説については、不確実性を含めて説明する必要があります。,"For our current hypothesis, we need to explain it together with the uncertainty."
+質疑応答,上級,結論を出すために不足している情報については、不確実性を含めて説明する必要があります。,"For the information missing for a conclusion, we need to explain it together with the uncertainty."
+質疑応答,上級,判断に影響する不確実性については、不確実性を含めて説明する必要があります。,"For uncertainties that affect the judgment, we need to explain it together with the uncertainty."
+質疑応答,上級,代替案の比較については、不確実性を含めて説明する必要があります。,"For comparison of alternatives, we need to explain it together with the uncertainty."
+質疑応答,上級,相手の懸念を踏まえた回答については、不確実性を含めて説明する必要があります。,"For an answer that addresses the concern, we need to explain it together with the uncertainty."
+質疑応答,上級,定量的な根拠については、不確実性を含めて説明する必要があります。,"For quantitative evidence, we need to explain it together with the uncertainty."
+質疑応答,上級,担当範囲の切り分けについては、不確実性を含めて説明する必要があります。,"For separation of responsibilities, we need to explain it together with the uncertainty."
+質疑応答,上級,長期的な影響については、不確実性を含めて説明する必要があります。,"For long-term implications, we need to explain it together with the uncertainty."
+質疑応答,上級,現時点での仮説を踏まえると、結論を急がず追加検証した方がよいと思います。,"Considering our current hypothesis, I think we should not rush to a conclusion and should conduct additional validation."
+質疑応答,上級,結論を出すために不足している情報を踏まえると、結論を急がず追加検証した方がよいと思います。,"Considering the information missing for a conclusion, I think we should not rush to a conclusion and should conduct additional validation."
+質疑応答,上級,判断に影響する不確実性を踏まえると、結論を急がず追加検証した方がよいと思います。,"Considering uncertainties that affect the judgment, I think we should not rush to a conclusion and should conduct additional validation."
+質疑応答,上級,代替案の比較を踏まえると、結論を急がず追加検証した方がよいと思います。,"Considering comparison of alternatives, I think we should not rush to a conclusion and should conduct additional validation."
+質疑応答,上級,相手の懸念を踏まえた回答を踏まえると、結論を急がず追加検証した方がよいと思います。,"Considering an answer that addresses the concern, I think we should not rush to a conclusion and should conduct additional validation."
+質疑応答,上級,定量的な根拠を踏まえると、結論を急がず追加検証した方がよいと思います。,"Considering quantitative evidence, I think we should not rush to a conclusion and should conduct additional validation."
+質疑応答,上級,担当範囲の切り分けを踏まえると、結論を急がず追加検証した方がよいと思います。,"Considering separation of responsibilities, I think we should not rush to a conclusion and should conduct additional validation."
+質疑応答,上級,長期的な影響を踏まえると、結論を急がず追加検証した方がよいと思います。,"Considering long-term implications, I think we should not rush to a conclusion and should conduct additional validation."
+質疑応答,上級,現時点での仮説について、関係者が納得できる根拠を示したいです。,"For our current hypothesis, I would like to provide evidence that stakeholders can accept."
+質疑応答,上級,結論を出すために不足している情報について、関係者が納得できる根拠を示したいです。,"For the information missing for a conclusion, I would like to provide evidence that stakeholders can accept."
+質疑応答,上級,判断に影響する不確実性について、関係者が納得できる根拠を示したいです。,"For uncertainties that affect the judgment, I would like to provide evidence that stakeholders can accept."
+質疑応答,上級,代替案の比較について、関係者が納得できる根拠を示したいです。,"For comparison of alternatives, I would like to provide evidence that stakeholders can accept."
+質疑応答,上級,相手の懸念を踏まえた回答について、関係者が納得できる根拠を示したいです。,"For an answer that addresses the concern, I would like to provide evidence that stakeholders can accept."
+質疑応答,上級,定量的な根拠について、関係者が納得できる根拠を示したいです。,"For quantitative evidence, I would like to provide evidence that stakeholders can accept."
+質疑応答,上級,担当範囲の切り分けについて、関係者が納得できる根拠を示したいです。,"For separation of responsibilities, I would like to provide evidence that stakeholders can accept."
+質疑応答,上級,長期的な影響について、関係者が納得できる根拠を示したいです。,"For long-term implications, I would like to provide evidence that stakeholders can accept."
+質疑応答,上級,現時点での仮説を切り分けて議論すると、論点が明確になります。,"If we separate our current hypothesis in the discussion, the issues will become clearer."
+質疑応答,上級,結論を出すために不足している情報を切り分けて議論すると、論点が明確になります。,"If we separate the information missing for a conclusion in the discussion, the issues will become clearer."
+質疑応答,上級,判断に影響する不確実性を切り分けて議論すると、論点が明確になります。,"If we separate uncertainties that affect the judgment in the discussion, the issues will become clearer."
+質疑応答,上級,代替案の比較を切り分けて議論すると、論点が明確になります。,"If we separate comparison of alternatives in the discussion, the issues will become clearer."
+質疑応答,上級,相手の懸念を踏まえた回答を切り分けて議論すると、論点が明確になります。,"If we separate an answer that addresses the concern in the discussion, the issues will become clearer."
+質疑応答,上級,定量的な根拠を切り分けて議論すると、論点が明確になります。,"If we separate quantitative evidence in the discussion, the issues will become clearer."
+雑談,初級,週末はどうでしたか。,How was your weekend?
+雑談,初級,天気はどうでしたか。,How was the weather?
+雑談,初級,東京はどうでしたか。,How was Tokyo?
+雑談,初級,スウェーデンはどうでしたか。,How was Sweden?
+雑談,初級,日本の食べ物はどうでしたか。,How was Japanese food?
+雑談,初級,旅行はどうでしたか。,How was travel?
+雑談,初級,ホテルはどうでしたか。,How was the hotel?
+雑談,初級,フライトはどうでしたか。,How was the flight?
+雑談,初級,時差はどうでしたか。,How was the time difference?
+雑談,初級,コーヒーはどうでしたか。,How was coffee?
+雑談,初級,昼食はどうでしたか。,How was lunch?
+雑談,初級,夕食はどうでしたか。,How was dinner?
+雑談,初級,季節はどうでしたか。,How was the season?
+雑談,初級,通勤はどうでしたか。,How was your commute?
+雑談,初級,街の雰囲気はどうでしたか。,How was the atmosphere of the city?
+雑談,初級,週末は好きですか。,Do you like your weekend?
+雑談,初級,天気は好きですか。,Do you like the weather?
+雑談,初級,東京は好きですか。,Do you like Tokyo?
+雑談,初級,スウェーデンは好きですか。,Do you like Sweden?
+雑談,初級,日本の食べ物は好きですか。,Do you like Japanese food?
+雑談,初級,旅行は好きですか。,Do you like travel?
+雑談,初級,ホテルは好きですか。,Do you like the hotel?
+雑談,初級,フライトは好きですか。,Do you like the flight?
+雑談,初級,時差は好きですか。,Do you like the time difference?
+雑談,初級,コーヒーは好きですか。,Do you like coffee?
+雑談,初級,昼食は好きですか。,Do you like lunch?
+雑談,初級,夕食は好きですか。,Do you like dinner?
+雑談,初級,季節は好きですか。,Do you like the season?
+雑談,初級,通勤は好きですか。,Do you like your commute?
+雑談,初級,街の雰囲気は好きですか。,Do you like the atmosphere of the city?
+雑談,初級,週末について教えてください。,Please tell me about your weekend.
+雑談,初級,天気について教えてください。,Please tell me about the weather.
+雑談,初級,東京について教えてください。,Please tell me about Tokyo.
+雑談,初級,スウェーデンについて教えてください。,Please tell me about Sweden.
+雑談,初級,日本の食べ物について教えてください。,Please tell me about Japanese food.
+雑談,中級,最近の仕事の状況について、もう少し聞かせてください。,Could you tell me a little more about how work has been recently?
+雑談,中級,こちらの研究所の雰囲気について、もう少し聞かせてください。,Could you tell me a little more about the atmosphere of our research center?
+雑談,中級,日本での滞在について、もう少し聞かせてください。,Could you tell me a little more about your stay in Japan?
+雑談,中級,会議以外の予定について、もう少し聞かせてください。,Could you tell me a little more about your plans outside the meeting?
+雑談,中級,現地のおすすめについて、もう少し聞かせてください。,Could you tell me a little more about local recommendations?
+雑談,中級,文化の違いについて、もう少し聞かせてください。,Could you tell me a little more about cultural differences?
+雑談,中級,長時間移動の疲れについて、もう少し聞かせてください。,Could you tell me a little more about fatigue from the long trip?
+雑談,中級,次回の訪問について、もう少し聞かせてください。,Could you tell me a little more about your next visit?
+雑談,中級,共通の関心事について、もう少し聞かせてください。,Could you tell me a little more about our common interests?
+雑談,中級,最近のニュースについて、もう少し聞かせてください。,Could you tell me a little more about recent news?
+雑談,中級,最近の仕事の状況はとても興味深いですね。,how work has been recently sounds very interesting.
+雑談,中級,こちらの研究所の雰囲気はとても興味深いですね。,the atmosphere of our research center sounds very interesting.
+雑談,中級,日本での滞在はとても興味深いですね。,your stay in Japan sounds very interesting.
+雑談,中級,会議以外の予定はとても興味深いですね。,your plans outside the meeting sounds very interesting.
+雑談,中級,現地のおすすめはとても興味深いですね。,local recommendations sounds very interesting.
+雑談,中級,文化の違いはとても興味深いですね。,cultural differences sounds very interesting.
+雑談,中級,長時間移動の疲れはとても興味深いですね。,fatigue from the long trip sounds very interesting.
+雑談,中級,次回の訪問はとても興味深いですね。,your next visit sounds very interesting.
+雑談,中級,共通の関心事はとても興味深いですね。,our common interests sounds very interesting.
+雑談,中級,最近のニュースはとても興味深いですね。,recent news sounds very interesting.
+雑談,中級,最近の仕事の状況について、日本との違いを感じますか。,Do you feel any differences from Japan regarding how work has been recently?
+雑談,中級,こちらの研究所の雰囲気について、日本との違いを感じますか。,Do you feel any differences from Japan regarding the atmosphere of our research center?
+雑談,中級,日本での滞在について、日本との違いを感じますか。,Do you feel any differences from Japan regarding your stay in Japan?
+雑談,中級,会議以外の予定について、日本との違いを感じますか。,Do you feel any differences from Japan regarding your plans outside the meeting?
+雑談,中級,現地のおすすめについて、日本との違いを感じますか。,Do you feel any differences from Japan regarding local recommendations?
+雑談,中級,文化の違いについて、日本との違いを感じますか。,Do you feel any differences from Japan regarding cultural differences?
+雑談,中級,長時間移動の疲れについて、日本との違いを感じますか。,Do you feel any differences from Japan regarding fatigue from the long trip?
+雑談,中級,次回の訪問について、日本との違いを感じますか。,Do you feel any differences from Japan regarding your next visit?
+雑談,中級,共通の関心事について、日本との違いを感じますか。,Do you feel any differences from Japan regarding our common interests?
+雑談,中級,最近のニュースについて、日本との違いを感じますか。,Do you feel any differences from Japan regarding recent news?
+雑談,中級,最近の仕事の状況について、何かおすすめはありますか。,Do you have any recommendations about how work has been recently?
+雑談,中級,こちらの研究所の雰囲気について、何かおすすめはありますか。,Do you have any recommendations about the atmosphere of our research center?
+雑談,中級,日本での滞在について、何かおすすめはありますか。,Do you have any recommendations about your stay in Japan?
+雑談,中級,会議以外の予定について、何かおすすめはありますか。,Do you have any recommendations about your plans outside the meeting?
+雑談,中級,現地のおすすめについて、何かおすすめはありますか。,Do you have any recommendations about local recommendations?
+雑談,上級,仕事と研究のバランスについて伺うと、文化の違いがよく分かって興味深いです。,Hearing about the balance between work and research is interesting because it shows cultural differences clearly.
+雑談,上級,国際共同研究の面白さについて伺うと、文化の違いがよく分かって興味深いです。,Hearing about what makes international collaboration interesting is interesting because it shows cultural differences clearly.
+雑談,上級,異なる文化でのコミュニケーションについて伺うと、文化の違いがよく分かって興味深いです。,Hearing about communication across different cultures is interesting because it shows cultural differences clearly.
+雑談,上級,長期的な協力関係について伺うと、文化の違いがよく分かって興味深いです。,Hearing about a long-term collaborative relationship is interesting because it shows cultural differences clearly.
+雑談,上級,研究テーマ以外の関心について伺うと、文化の違いがよく分かって興味深いです。,Hearing about interests outside the research topic is interesting because it shows cultural differences clearly.
+雑談,上級,現地で印象に残ったことについて伺うと、文化の違いがよく分かって興味深いです。,Hearing about what left an impression during your stay is interesting because it shows cultural differences clearly.
+雑談,上級,次の共同テーマにつながる雑談について伺うと、文化の違いがよく分かって興味深いです。,Hearing about small talk that may lead to the next collaboration topic is interesting because it shows cultural differences clearly.
+雑談,上級,相手の専門分野への関心について伺うと、文化の違いがよく分かって興味深いです。,Hearing about interest in the other person's field is interesting because it shows cultural differences clearly.
+雑談,上級,仕事と研究のバランスは、今後の交流を深める良いきっかけになりそうです。,the balance between work and research could be a good opportunity to deepen our future interactions.
+雑談,上級,国際共同研究の面白さは、今後の交流を深める良いきっかけになりそうです。,what makes international collaboration interesting could be a good opportunity to deepen our future interactions.
+雑談,上級,異なる文化でのコミュニケーションは、今後の交流を深める良いきっかけになりそうです。,communication across different cultures could be a good opportunity to deepen our future interactions.
+雑談,上級,長期的な協力関係は、今後の交流を深める良いきっかけになりそうです。,a long-term collaborative relationship could be a good opportunity to deepen our future interactions.
+雑談,上級,研究テーマ以外の関心は、今後の交流を深める良いきっかけになりそうです。,interests outside the research topic could be a good opportunity to deepen our future interactions.
+雑談,上級,現地で印象に残ったことは、今後の交流を深める良いきっかけになりそうです。,what left an impression during your stay could be a good opportunity to deepen our future interactions.
+雑談,上級,次の共同テーマにつながる雑談は、今後の交流を深める良いきっかけになりそうです。,small talk that may lead to the next collaboration topic could be a good opportunity to deepen our future interactions.
+雑談,上級,相手の専門分野への関心は、今後の交流を深める良いきっかけになりそうです。,interest in the other person's field could be a good opportunity to deepen our future interactions.
+雑談,上級,仕事と研究のバランスについて、研究以外の面でも学ぶことが多いです。,"There is a lot to learn from the balance between work and research, even outside the research context."
+雑談,上級,国際共同研究の面白さについて、研究以外の面でも学ぶことが多いです。,"There is a lot to learn from what makes international collaboration interesting, even outside the research context."
+雑談,上級,異なる文化でのコミュニケーションについて、研究以外の面でも学ぶことが多いです。,"There is a lot to learn from communication across different cultures, even outside the research context."
+雑談,上級,長期的な協力関係について、研究以外の面でも学ぶことが多いです。,"There is a lot to learn from a long-term collaborative relationship, even outside the research context."
+雑談,上級,研究テーマ以外の関心について、研究以外の面でも学ぶことが多いです。,"There is a lot to learn from interests outside the research topic, even outside the research context."
+雑談,上級,現地で印象に残ったことについて、研究以外の面でも学ぶことが多いです。,"There is a lot to learn from what left an impression during your stay, even outside the research context."
+雑談,上級,次の共同テーマにつながる雑談について、研究以外の面でも学ぶことが多いです。,"There is a lot to learn from small talk that may lead to the next collaboration topic, even outside the research context."
+雑談,上級,相手の専門分野への関心について、研究以外の面でも学ぶことが多いです。,"There is a lot to learn from interest in the other person's field, even outside the research context."
+雑談,上級,仕事と研究のバランスの話題は、会議前の雰囲気づくりにも良いですね。,Talking about the balance between work and research is also good for creating a relaxed atmosphere before the meeting.
+雑談,上級,国際共同研究の面白さの話題は、会議前の雰囲気づくりにも良いですね。,Talking about what makes international collaboration interesting is also good for creating a relaxed atmosphere before the meeting.
+雑談,上級,異なる文化でのコミュニケーションの話題は、会議前の雰囲気づくりにも良いですね。,Talking about communication across different cultures is also good for creating a relaxed atmosphere before the meeting.
+雑談,上級,長期的な協力関係の話題は、会議前の雰囲気づくりにも良いですね。,Talking about a long-term collaborative relationship is also good for creating a relaxed atmosphere before the meeting.
+雑談,上級,研究テーマ以外の関心の話題は、会議前の雰囲気づくりにも良いですね。,Talking about interests outside the research topic is also good for creating a relaxed atmosphere before the meeting.
+雑談,上級,現地で印象に残ったことの話題は、会議前の雰囲気づくりにも良いですね。,Talking about what left an impression during your stay is also good for creating a relaxed atmosphere before the meeting.
