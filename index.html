@@ -60,6 +60,8 @@ header p{
     padding:28px;
     box-shadow:0 8px 24px rgba(0,0,0,0.08);
     transition:.2s;
+    display:flex;
+    flex-direction:column;
 }
 
 .card:hover{
@@ -78,13 +80,14 @@ header p{
 
 .button{
     display:inline-block;
-    margin-top:15px;
+    margin-top:auto;
     padding:12px 20px;
     background:var(--blue);
     color:white;
     text-decoration:none;
     border-radius:12px;
     font-weight:bold;
+    text-align:center;
 }
 
 .button:hover{
@@ -92,6 +95,11 @@ header p{
 }
 
 .coming{
+    background:#9ca3af;
+    cursor:not-allowed;
+}
+
+.coming:hover{
     background:#9ca3af;
 }
 
@@ -159,7 +167,7 @@ header p{
                 シャドーイング練習に最適。
             </p>
 
-            <a classr/
+            <a class="button" href="./speaker/">
                 アプリを開く
             </a>
         </div>
@@ -171,8 +179,8 @@ header p{
                 Chalmers会議・海外打合せ・
                 出張英語の実践練習。
             </p>
-            
-            <a classr/
+
+            <a class="button" href="./trainer/">
                 アプリを開く
             </a>
         </div>
