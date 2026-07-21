@@ -1,578 +1,153 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>English Speaking Trainer v3 - Folder Favorites</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>English Learning Hub</title>
+
 <style>
-  :root{
-    --bg:#f5f7fb; --card:#ffffff; --text:#172033; --muted:#62708a; --line:#d8e0ef;
-    --primary:#2563eb; --primary2:#1d4ed8; --soft:#eef4ff; --gold:#f59e0b; --danger:#dc2626;
-    --green:#059669; --shadow:0 12px 30px rgba(20,40,70,.10);
-  }
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--text);font-family:"Segoe UI",system-ui,-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",Meiryo,sans-serif;}
-  .app{max-width:1240px;margin:24px auto;padding:0 14px;}
-  header{margin-bottom:14px;}
-  h1{margin:0 0 8px;font-size:26px;letter-spacing:.01em;}
-  .lead{margin:0;color:var(--muted);line-height:1.65;font-size:14px;}
-  .layout{display:grid;grid-template-columns:minmax(0,1.18fr) minmax(360px,.82fr);gap:16px;align-items:start;}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:19px;}
-  label{display:block;font-weight:700;margin-bottom:7px;}
-  textarea{width:100%;min-height:240px;resize:vertical;border:1px solid var(--line);border-radius:16px;padding:15px 16px;font-size:18px;line-height:1.6;outline:none;background:#fff;}
-  textarea:focus,input:focus,select:focus{border-color:var(--primary);box-shadow:0 0 0 3px rgba(37,99,235,.12)}
-  select,input[type="text"],input[type="number"]{width:100%;border:1px solid var(--line);border-radius:12px;padding:10px 12px;font-size:14px;background:#fff;outline:none;}
-  input[type="range"]{width:100%;}
-  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px;}
-  .grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-top:14px;}
-  .row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:15px;}
-  button{border:0;border-radius:13px;padding:10px 14px;font-weight:800;font-size:14px;cursor:pointer;transition:.15s ease;}
-  button:disabled{opacity:.55;cursor:not-allowed;}
-  .primary{background:var(--primary);color:white}.primary:hover{background:var(--primary2)}
-  .secondary{background:var(--soft);color:#1e3a8a}.secondary:hover{background:#dfeaff}
-  .ghost{background:#f4f6fa;color:#334155}.ghost:hover{background:#e8edf5}
-  .danger{background:#fee2e2;color:#991b1b}.danger:hover{background:#fecaca}
-  .gold{background:#fff7df;color:#92400e}.gold:hover{background:#fde68a}
-  .green{background:#dcfce7;color:#166534}.green:hover{background:#bbf7d0}
-  .mini{padding:7px 10px;border-radius:10px;font-size:12px;}
-  .status{margin-top:12px;color:var(--muted);font-size:14px;line-height:1.55;min-height:22px;}
-  .status strong{color:var(--primary)}
-  .note{font-size:12px;color:var(--muted);line-height:1.7;margin-top:12px;border-top:1px solid var(--line);padding-top:12px;}
-  .charcount{font-size:12px;color:var(--muted);text-align:right;margin-top:6px;}
-  .tabs{display:flex;gap:8px;margin-bottom:12px;}
-  .tab{flex:1;background:#f4f6fa;color:#334155;padding:10px;border-radius:13px;text-align:center;font-weight:800;cursor:pointer;}
-  .tab.active{background:var(--primary);color:white;}
-  .section{display:none}.section.active{display:block}
-  .search{margin:8px 0 12px;}
-  .item{border:1px solid var(--line);border-radius:14px;padding:12px;margin-bottom:10px;background:#fff;}
-  .item.selected{border-color:var(--primary);box-shadow:0 0 0 3px rgba(37,99,235,.10)}
-  .meta{font-size:12px;color:var(--muted);margin-bottom:7px;display:flex;justify-content:space-between;gap:10px;align-items:center;}
-  .folder-meta{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
-  .text-preview{white-space:pre-wrap;line-height:1.45;font-size:14px;max-height:92px;overflow:auto;margin-bottom:10px;}
-  .actions{display:flex;gap:8px;flex-wrap:wrap;}
-  .empty{color:var(--muted);font-size:14px;line-height:1.7;padding:12px;border:1px dashed var(--line);border-radius:14px;background:#fbfcff;}
-  .checkrow{display:flex;align-items:center;gap:8px;color:#334155;font-size:14px;}
-  .pill{display:inline-block;background:#eaf0ff;color:#1e3a8a;padding:3px 8px;border-radius:999px;font-size:12px;font-weight:800;margin-left:6px;}
-  .folder-list{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 12px;}
-  .folder-chip{background:#f4f6fa;border:1px solid var(--line);border-radius:999px;padding:7px 11px;font-size:13px;font-weight:800;cursor:pointer;color:#334155;}
-  .folder-chip.active{background:var(--primary);color:#fff;border-color:var(--primary)}
-  .toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0;align-items:center;}
-  .toolbar > *{flex:0 0 auto;}
-  .folder-panel{background:#fbfcff;border:1px solid var(--line);border-radius:16px;padding:12px;margin:10px 0 12px;}
-  .folder-panel h3{font-size:15px;margin:0 0 10px;}
-  .small{font-size:12px;color:var(--muted);line-height:1.65;}
-  .divider{height:1px;background:var(--line);margin:12px 0;}
-  @media(max-width:940px){.layout{grid-template-columns:1fr}.grid3,.grid2{grid-template-columns:1fr}}
+body{
+    margin:0;
+    font-family:Segoe UI, sans-serif;
+    background:#f5f7fb;
+    color:#222;
+}
+
+header{
+    background:linear-gradient(135deg,#2563eb,#1e40af);
+    color:white;
+    padding:40px 20px;
+    text-align:center;
+}
+
+header h1{
+    margin:0;
+    font-size:2.2rem;
+}
+
+header p{
+    opacity:0.9;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:30px 20px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:18px;
+    padding:25px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+    transition:0.2s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h2{
+    margin-top:0;
+}
+
+.card p{
+    color:#555;
+    line-height:1.5;
+}
+
+.button{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 18px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.button:hover{
+    background:#1d4ed8;
+}
+
+.footer{
+    text-align:center;
+    color:#666;
+    margin:40px 0;
+}
 </style>
+
 </head>
 <body>
-<div class="app">
-  <header>
-    <h1>English Speaking Trainer <span class="pill">v3 Folder Favorites</span></h1>
-    <p class="lead">履歴・フォルダ型お気に入り・連続再生・ランダム再生・使用回数ソート・最近使用ソートに対応した、ブラウザだけで動く英会話練習ツールです。</p>
-  </header>
 
-  <div class="layout">
-    <main class="card">
-      <label for="text">読み上げたい英文</label>
-      <textarea id="text">Good morning everyone.
-Thank you for joining today's meeting.
-Let me briefly explain the purpose of today's discussion.</textarea>
-      <div class="charcount"><span id="charCount">0</span> 文字</div>
+<header>
+    <h1>English Learning Hub</h1>
+    <p>
+        技術英語・海外会議・瞬間英作文のための学習ポータル
+    </p>
+</header>
 
-      <div class="grid2">
-        <div>
-          <label for="voice">Voice</label>
-          <select id="voice"><option value="">音声を読み込み中...</option></select>
-        </div>
-        <div>
-          <label for="favoriteFolderSelect">お気に入り保存先フォルダ</label>
-          <select id="favoriteFolderSelect"></select>
-        </div>
-      </div>
+<div class="container">
 
-      <div class="grid3">
-        <div>
-          <label for="rate">速度: <span id="rateValue">1.0</span>x</label>
-          <input id="rate" type="range" min="0.6" max="1.5" step="0.1" value="1.0" />
-        </div>
-        <div>
-          <label for="pitch">高さ: <span id="pitchValue">1.0</span></label>
-          <input id="pitch" type="range" min="0.7" max="1.3" step="0.1" value="1.0" />
-        </div>
-        <div>
-          <label for="repeat">繰り返し回数</label>
-          <input id="repeat" type="number" min="1" max="20" value="1" />
-        </div>
-      </div>
+<div class="grid">
 
-      <div class="grid2">
-        <div class="checkrow">
-          <input id="shadowing" type="checkbox" />
-          <label for="shadowing" style="margin:0;font-weight:700;">シャドーイングモード</label>
-        </div>
-        <div>
-          <label for="pauseSec">文ごとの待ち時間（秒）</label>
-          <input id="pauseSec" type="number" min="0" max="10" step="0.5" value="2" />
-        </div>
-      </div>
-
-      <div class="row">
-        <button class="primary" id="playBtn">▶ 入力欄を再生</button>
-        <button class="secondary" id="stopBtn">■ 停止</button>
-        <button class="gold" id="favBtn">★ 選択フォルダへ保存</button>
-        <button class="ghost" id="sampleBtn">例文</button>
-        <button class="ghost" id="clearTextBtn">入力欄クリア</button>
-      </div>
-
-      <div class="status" id="status">準備完了です。履歴・お気に入りの「呼び出し」「再生」はイベント方式で修正済みです。</div>
-      <div class="note">
-        <strong>保存先：</strong>履歴・お気に入り・フォルダは、このブラウザの localStorage に保存されます。GitHub Pagesに置いても、保存データは端末・ブラウザごとに保持されます。
-      </div>
-    </main>
-
-    <aside class="card">
-      <div class="tabs">
-        <div class="tab active" data-tab="favorites">お気に入り</div>
-        <div class="tab" data-tab="history">履歴</div>
-        <div class="tab" data-tab="data">データ</div>
-      </div>
-
-      <section id="favorites" class="section active">
-        <div class="folder-panel">
-          <h3>フォルダ管理</h3>
-          <div class="toolbar">
-            <input id="folderNameInput" type="text" placeholder="新規/変更するフォルダ名" style="min-width:190px" />
-            <button class="mini green" id="addFolderBtn">＋追加</button>
-            <button class="mini secondary" id="renameFolderBtn">名前変更</button>
-            <button class="mini danger" id="deleteFolderBtn">削除</button>
-          </div>
-          <div class="small">削除したフォルダ内のフレーズは「未分類」に移動します。フォルダ「未分類」は削除できません。</div>
-        </div>
-
-        <input class="search" id="favoriteSearch" type="text" placeholder="お気に入り全体を検索（例：corrosion, Chalmers）" />
-        <div class="folder-list" id="folderList"></div>
-
-        <div class="toolbar">
-          <select id="favoriteSort" style="max-width:170px">
-            <option value="manual">手動順</option>
-            <option value="recent">最近使った順</option>
-            <option value="popular">よく使う順</option>
-            <option value="created">登録が新しい順</option>
-          </select>
-          <button class="mini primary" id="playFolderBtn">▶ フォルダ連続再生</button>
-          <button class="mini secondary" id="playRandomBtn">🔀 ランダム再生</button>
-          <button class="mini danger" id="clearFavoritesBtn">全お気に入り削除</button>
-        </div>
-        <div id="favoriteList"></div>
-      </section>
-
-      <section id="history" class="section">
-        <input class="search" id="historySearch" type="text" placeholder="履歴を検索" />
-        <div class="toolbar">
-          <button class="mini danger" id="clearHistoryBtn">履歴削除</button>
-        </div>
-        <div id="historyList"></div>
-      </section>
-
-      <section id="data" class="section">
-        <div class="folder-panel">
-          <h3>バックアップ</h3>
-          <div class="toolbar">
-            <button class="mini ghost" id="exportBtn">データ書き出し</button>
-            <button class="mini ghost" id="importBtn">データ読み込み</button>
-            <input id="importFile" type="file" accept="application/json" style="display:none" />
-          </div>
-          <div class="small">PCとスマホでお気に入りを移す場合は、書き出した JSON を別端末で読み込んでください。</div>
-        </div>
-        <div class="folder-panel">
-          <h3>初期化</h3>
-          <div class="toolbar">
-            <button class="mini danger" id="resetAllBtn">全データ初期化</button>
-          </div>
-          <div class="small">フォルダ、履歴、お気に入りをすべて削除して初期状態に戻します。</div>
-        </div>
-      </section>
-    </aside>
-  </div>
+<div class="card">
+    <h2>🎤 English Speaker</h2>
+    <p>
+        英文を入力してネイティブ音声で読み上げ。
+        発音確認やシャドーイング練習に。
+    </p>
+    <a class="button   アプリを開く
+    </a>
 </div>
 
-<script>
-(function(){
-  'use strict';
-  const $ = id => document.getElementById(id);
-  const STORAGE_KEY = 'englishSpeakingTrainer.v3';
-  const OLD_KEY = 'englishSpeakingTrainer.v2';
-  const DEFAULT_FOLDERS = ['未分類','Chalmers','海外出張','学会発表','社内会議'];
-  const textEl = $('text'), voiceEl = $('voice'), statusEl = $('status');
-  const rateEl = $('rate'), pitchEl = $('pitch'), repeatEl = $('repeat'), shadowingEl = $('shadowing'), pauseSecEl = $('pauseSec');
-  let selectedFolderId = null;
-  let isStopped = false;
-  let isPlaying = false;
+<div class="card">
+    <h2>⚡ 瞬間英作文</h2>
+    <p>
+        日本語を聞いて英語を瞬時に発話。
+        Chalmers会議や海外打合せ向け。
+    </p>
+    ./trainer/
+        アプリを開く
+    </a>
+</div>
 
-  function uid(){ return Date.now().toString(36) + Math.random().toString(36).slice(2,9); }
-  function nowISO(){ return new Date().toISOString(); }
-  function nowLabel(iso){
-    const d = iso ? new Date(iso) : new Date();
-    const pad = n => String(n).padStart(2,'0');
-    return `${d.getFullYear()}/${pad(d.getMonth()+1)}/${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
-  }
-  function clip(s,n=80){ return (s||'').length > n ? s.slice(0,n)+'…' : (s||''); }
-  function escapeHtml(s){ return String(s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c])); }
-  function normalizeText(s){ return String(s||'').replace(/\r/g,'').trim(); }
+<div class="card">
+    <h2>🤝 Meeting Simulator</h2>
+    <p>
+        会議シミュレーター。
+        将来追加予定。
+    </p>
+    <a class="button" href="#">
+        Coming Soon
+    </a>
+</div>
 
-  function makeInitialData(){
-    const folders = DEFAULT_FOLDERS.map((name, i) => ({id: uid(), name, order:i, createdAt:nowISO()}));
-    return {version:3, folders, favorites:[], history:[], settings:{selectedFolderId:folders[0].id}};
-  }
-  function migrateV2(){
-    try{
-      const old = JSON.parse(localStorage.getItem(OLD_KEY));
-      if(!old) return null;
-      const data = makeInitialData();
-      const unc = data.folders[0].id;
-      data.history = (old.history||[]).map(h => ({id:uid(), text:normalizeText(h.text), createdAt:h.date ? new Date(h.date).toISOString() : nowISO()})).filter(x=>x.text);
-      data.favorites = (old.favorites||[]).map((f,i) => ({id:uid(), folderId:unc, text:normalizeText(f.text), createdAt:f.date ? new Date(f.date).toISOString() : nowISO(), lastUsedAt:null, usedCount:0, order:i})).filter(x=>x.text);
-      saveData(data);
-      return data;
-    }catch{return null;}
-  }
-  function loadData(){
-    try{
-      const data = JSON.parse(localStorage.getItem(STORAGE_KEY));
-      if(data && data.version === 3) return ensureData(data);
-    }catch{}
-    const migrated = migrateV2();
-    if(migrated) return ensureData(migrated);
-    const init = makeInitialData();
-    saveData(init);
-    return init;
-  }
-  function ensureData(data){
-    if(!Array.isArray(data.folders) || !data.folders.length){ data.folders = makeInitialData().folders; }
-    if(!Array.isArray(data.favorites)) data.favorites = [];
-    if(!Array.isArray(data.history)) data.history = [];
-    if(!data.settings) data.settings = {};
-    const hasUnc = data.folders.some(f => f.name === '未分類');
-    if(!hasUnc) data.folders.unshift({id:uid(), name:'未分類', order:-1, createdAt:nowISO()});
-    data.folders.sort((a,b)=>(a.order||0)-(b.order||0));
-    if(!selectedFolderId){ selectedFolderId = data.settings.selectedFolderId || data.folders[0].id; }
-    if(!data.folders.some(f=>f.id===selectedFolderId)) selectedFolderId = data.folders[0].id;
-    data.settings.selectedFolderId = selectedFolderId;
-    return data;
-  }
-  function saveData(data){ localStorage.setItem(STORAGE_KEY, JSON.stringify(data)); }
-  function updateAndSave(mutator){ const data = loadData(); mutator(data); saveData(data); renderAll(); }
+<div class="card">
+    <h2>📚 Technical Vocabulary</h2>
+    <p>
+        腐食・WtE・SEM・材料分野の
+        技術英語辞書。
+    </p>
+    <a class="button" href="#">
+        Coming Soon
+    </a>
+</div>
 
-  function updateCharCount(){ $('charCount').textContent = textEl.value.length; }
-  function setStatus(html){ statusEl.innerHTML = html; }
+</div>
 
-  function loadVoices(){
-    const voices = window.speechSynthesis ? speechSynthesis.getVoices() : [];
-    voiceEl.innerHTML = '';
-    const english = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith('en'));
-    const list = english.length ? english : voices;
-    if(!list.length){ voiceEl.innerHTML = '<option value="">音声がまだ読み込まれていません</option>'; return; }
-    list.forEach(v => {
-      const opt = document.createElement('option');
-      opt.value = v.name;
-      opt.textContent = `${v.name} (${v.lang})${v.default ? ' / default' : ''}`;
-      voiceEl.appendChild(opt);
-    });
-  }
-  loadVoices();
-  if(window.speechSynthesis) speechSynthesis.onvoiceschanged = loadVoices;
+</div>
 
-  function getSelectedVoice(){ return speechSynthesis.getVoices().find(v => v.name === voiceEl.value) || null; }
-  function makeUtterance(text){
-    const u = new SpeechSynthesisUtterance(text);
-    const v = getSelectedVoice(); if(v) u.voice = v;
-    u.rate = parseFloat(rateEl.value);
-    u.pitch = parseFloat(pitchEl.value);
-    u.volume = 1.0;
-    return u;
-  }
-  function wait(ms){ return new Promise(r => setTimeout(r, ms)); }
-  function speakOnce(sentence){
-    return new Promise((resolve, reject) => {
-      if(isStopped) return resolve();
-      const u = makeUtterance(sentence);
-      u.onend = () => resolve();
-      u.onerror = e => reject(e);
-      speechSynthesis.speak(u);
-    });
-  }
-  function splitSentences(text){
-    return normalizeText(text).split(/(?<=[.!?。！？])\s+|\n+/).map(s=>s.trim()).filter(Boolean);
-  }
-  async function speakText(text, label, options={}){
-    text = normalizeText(text);
-    if(!text){ alert('英文を入力してください。'); return; }
-    if(!window.speechSynthesis){ alert('このブラウザは音声読み上げに対応していません。'); return; }
-    isStopped = false; isPlaying = true;
-    speechSynthesis.cancel();
-    $('playBtn').disabled = true;
-    const repeat = Math.max(1, Math.min(20, parseInt(repeatEl.value || '1',10)));
-    const shadowing = shadowingEl.checked;
-    const pauseMs = Math.max(0, parseFloat(pauseSecEl.value || '0')) * 1000;
-    if(options.addHistory !== false) addHistory(text, false);
-    try{
-      for(let r=1;r<=repeat;r++){
-        if(isStopped) break;
-        if(shadowing){
-          const sentences = splitSentences(text);
-          for(let i=0;i<sentences.length;i++){
-            if(isStopped) break;
-            setStatus(`<strong>${escapeHtml(label||'再生中')}</strong>：${r}/${repeat} 回目、${i+1}/${sentences.length} 文目`);
-            await speakOnce(sentences[i]);
-            if(!isStopped && pauseMs>0 && i < sentences.length-1) await wait(pauseMs);
-          }
-        }else{
-          setStatus(`<strong>${escapeHtml(label||'再生中')}</strong>：${r}/${repeat} 回目`);
-          await speakOnce(text);
-        }
-        if(!isStopped && r < repeat) await wait(400);
-      }
-      setStatus(isStopped ? '停止しました。' : '再生が完了しました。');
-    }catch(e){
-      setStatus('読み上げ中にエラーが発生しました。別のVoiceを選んで再試行してください。');
-    }finally{
-      isPlaying = false; $('playBtn').disabled = false;
-    }
-  }
-  function stop(){ isStopped = true; if(window.speechSynthesis) speechSynthesis.cancel(); setStatus('停止しました。'); $('playBtn').disabled=false; }
+<div class="footer">
+    English Learning Hub for Kawasaki Shota
+</div>
 
-  function addHistory(text, rerender=true){
-    text = normalizeText(text); if(!text) return;
-    const data = loadData();
-    data.history = data.history.filter(x => x.text !== text);
-    data.history.unshift({id:uid(), text, createdAt:nowISO()});
-    data.history = data.history.slice(0,150);
-    saveData(data); if(rerender) renderAll();
-  }
-  function getUncategorizedId(data){ return data.folders.find(f=>f.name==='未分類')?.id || data.folders[0].id; }
-
-  function renderFolderSelects(data){
-    const opts = data.folders.map(f => `<option value="${f.id}" ${f.id===selectedFolderId?'selected':''}>${escapeHtml(f.name)}</option>`).join('');
-    $('favoriteFolderSelect').innerHTML = opts;
-  }
-  function renderFolderChips(data){
-    const counts = Object.fromEntries(data.folders.map(f => [f.id,0]));
-    data.favorites.forEach(x => { counts[x.folderId] = (counts[x.folderId]||0)+1; });
-    $('folderList').innerHTML = data.folders.map(f =>
-      `<span class="folder-chip ${f.id===selectedFolderId?'active':''}" data-action="select-folder" data-id="${f.id}">📁 ${escapeHtml(f.name)} (${counts[f.id]||0})</span>`
-    ).join('');
-  }
-
-  function renderFavorites(){
-    const data = loadData();
-    renderFolderSelects(data); renderFolderChips(data);
-    const kw = $('favoriteSearch').value.toLowerCase().trim();
-    const sort = $('favoriteSort').value;
-    let items = data.favorites.slice();
-    if(kw) items = items.filter(x => {
-      const folder = data.folders.find(f=>f.id===x.folderId)?.name || '';
-      return (x.text + '\n' + folder).toLowerCase().includes(kw);
-    });
-    if(!kw) items = items.filter(x => x.folderId === selectedFolderId);
-    if(sort === 'recent') items.sort((a,b)=>String(b.lastUsedAt||'').localeCompare(String(a.lastUsedAt||'')) || (b.order||0)-(a.order||0));
-    else if(sort === 'popular') items.sort((a,b)=>(b.usedCount||0)-(a.usedCount||0) || (a.order||0)-(b.order||0));
-    else if(sort === 'created') items.sort((a,b)=>String(b.createdAt||'').localeCompare(String(a.createdAt||'')));
-    else items.sort((a,b)=>(a.order||0)-(b.order||0));
-    const folderName = data.folders.find(f=>f.id===selectedFolderId)?.name || '未分類';
-    if(!items.length){
-      $('favoriteList').innerHTML = `<div class="empty">${kw ? '検索条件に一致するお気に入りがありません。' : `「${escapeHtml(folderName)}」にはまだお気に入りがありません。入力欄の英文を「★ 選択フォルダへ保存」で登録できます。`}</div>`;
-      return;
-    }
-    $('favoriteList').innerHTML = items.map((x,idx) => {
-      const folder = data.folders.find(f=>f.id===x.folderId)?.name || '未分類';
-      return `<div class="item" data-id="${x.id}" data-type="favorite">
-        <div class="meta"><span class="folder-meta">📁 ${escapeHtml(folder)} <span>使用 ${x.usedCount||0} 回</span></span><span>${x.lastUsedAt ? '最近: '+nowLabel(x.lastUsedAt) : '登録: '+nowLabel(x.createdAt)}</span></div>
-        <div class="text-preview">${escapeHtml(x.text)}</div>
-        <div class="actions">
-          <button class="mini secondary" data-action="load-favorite" data-id="${x.id}">呼び出し</button>
-          <button class="mini primary" data-action="play-favorite" data-id="${x.id}">再生</button>
-          <button class="mini ghost" data-action="move-up" data-id="${x.id}" ${idx===0 || sort!=='manual' || kw ? 'disabled':''}>↑</button>
-          <button class="mini ghost" data-action="move-down" data-id="${x.id}" ${idx===items.length-1 || sort!=='manual' || kw ? 'disabled':''}>↓</button>
-          <button class="mini danger" data-action="delete-favorite" data-id="${x.id}">削除</button>
-        </div>
-      </div>`;
-    }).join('');
-  }
-  function renderHistory(){
-    const data = loadData();
-    const kw = $('historySearch').value.toLowerCase().trim();
-    let items = data.history.slice();
-    if(kw) items = items.filter(x => (x.text+'\n'+nowLabel(x.createdAt)).toLowerCase().includes(kw));
-    if(!items.length){ $('historyList').innerHTML = '<div class="empty">履歴はまだありません。再生すると自動で保存されます。</div>'; return; }
-    $('historyList').innerHTML = items.map(x => `<div class="item" data-id="${x.id}" data-type="history">
-      <div class="meta"><span>履歴</span><span>${nowLabel(x.createdAt)}</span></div>
-      <div class="text-preview">${escapeHtml(x.text)}</div>
-      <div class="actions">
-        <button class="mini secondary" data-action="load-history" data-id="${x.id}">呼び出し</button>
-        <button class="mini primary" data-action="play-history" data-id="${x.id}">再生</button>
-        <button class="mini gold" data-action="favorite-history" data-id="${x.id}">★選択フォルダへ追加</button>
-        <button class="mini danger" data-action="delete-history" data-id="${x.id}">削除</button>
-      </div>
-    </div>`).join('');
-  }
-  function renderAll(){ const data = loadData(); renderFolderSelects(data); renderFavorites(); renderHistory(); }
-
-  function loadToEditor(text){ textEl.value = text; updateCharCount(); window.scrollTo({top:0, behavior:'smooth'}); }
-  function markFavoriteUsed(id){
-    updateAndSave(data => {
-      const item = data.favorites.find(x=>x.id===id);
-      if(item){ item.usedCount = (item.usedCount||0)+1; item.lastUsedAt = nowISO(); }
-    });
-  }
-  function addFavoriteFromText(){
-    const text = normalizeText(textEl.value); if(!text){ alert('お気に入り保存する英文を入力してください。'); return; }
-    updateAndSave(data => {
-      const folderId = $('favoriteFolderSelect').value || selectedFolderId || getUncategorizedId(data);
-      const maxOrder = Math.max(-1, ...data.favorites.filter(x=>x.folderId===folderId).map(x=>x.order||0));
-      data.favorites.push({id:uid(), folderId, text, createdAt:nowISO(), lastUsedAt:null, usedCount:0, order:maxOrder+1});
-      selectedFolderId = folderId; data.settings.selectedFolderId = selectedFolderId;
-    });
-    setStatus('選択フォルダへお気に入り保存しました。');
-  }
-  function favoriteHistory(id){
-    updateAndSave(data => {
-      const h = data.history.find(x=>x.id===id); if(!h) return;
-      const folderId = selectedFolderId || getUncategorizedId(data);
-      const maxOrder = Math.max(-1, ...data.favorites.filter(x=>x.folderId===folderId).map(x=>x.order||0));
-      data.favorites.push({id:uid(), folderId, text:h.text, createdAt:nowISO(), lastUsedAt:null, usedCount:0, order:maxOrder+1});
-    });
-    setStatus('履歴を選択フォルダへ追加しました。');
-  }
-  function deleteFavorite(id){ updateAndSave(data => { data.favorites = data.favorites.filter(x=>x.id!==id); }); }
-  function deleteHistory(id){ updateAndSave(data => { data.history = data.history.filter(x=>x.id!==id); }); }
-  function moveFavorite(id, dir){
-    updateAndSave(data => {
-      const item = data.favorites.find(x=>x.id===id); if(!item) return;
-      const folderItems = data.favorites.filter(x=>x.folderId===item.folderId).sort((a,b)=>(a.order||0)-(b.order||0));
-      const idx = folderItems.findIndex(x=>x.id===id); const j = idx + dir;
-      if(idx<0 || j<0 || j>=folderItems.length) return;
-      const tmp = folderItems[idx].order; folderItems[idx].order = folderItems[j].order; folderItems[j].order = tmp;
-    });
-  }
-  function addFolder(){
-    const name = $('folderNameInput').value.trim(); if(!name){ alert('フォルダ名を入力してください。'); return; }
-    updateAndSave(data => {
-      if(data.folders.some(f=>f.name===name)){ alert('同じ名前のフォルダがあります。'); return; }
-      const maxOrder = Math.max(-1, ...data.folders.map(f=>f.order||0));
-      const f = {id:uid(), name, order:maxOrder+1, createdAt:nowISO()};
-      data.folders.push(f); selectedFolderId = f.id; data.settings.selectedFolderId = selectedFolderId;
-    });
-    $('folderNameInput').value='';
-  }
-  function renameFolder(){
-    const name = $('folderNameInput').value.trim(); if(!name){ alert('変更後のフォルダ名を入力してください。'); return; }
-    updateAndSave(data => {
-      const f = data.folders.find(x=>x.id===selectedFolderId); if(!f) return;
-      if(f.name === '未分類'){ alert('「未分類」は名前変更しないことをおすすめします。'); return; }
-      if(data.folders.some(x=>x.name===name && x.id!==selectedFolderId)){ alert('同じ名前のフォルダがあります。'); return; }
-      f.name = name;
-    });
-    $('folderNameInput').value='';
-  }
-  function deleteFolder(){
-    updateAndSave(data => {
-      const f = data.folders.find(x=>x.id===selectedFolderId); if(!f) return;
-      if(f.name === '未分類'){ alert('「未分類」は削除できません。'); return; }
-      if(!confirm(`フォルダ「${f.name}」を削除しますか？中のフレーズは「未分類」へ移動します。`)) return;
-      const unc = getUncategorizedId(data);
-      data.favorites.forEach(x => { if(x.folderId===selectedFolderId) x.folderId = unc; });
-      data.folders = data.folders.filter(x=>x.id!==selectedFolderId);
-      selectedFolderId = unc; data.settings.selectedFolderId = selectedFolderId;
-    });
-  }
-  function selectedFolderItems(shuffle=false){
-    const data = loadData();
-    let items = data.favorites.filter(x=>x.folderId===selectedFolderId).sort((a,b)=>(a.order||0)-(b.order||0));
-    if(shuffle){
-      for(let i=items.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [items[i],items[j]]=[items[j],items[i]]; }
-    }
-    return items;
-  }
-  async function playFolder(shuffle=false){
-    const items = selectedFolderItems(shuffle);
-    if(!items.length){ alert('このフォルダには再生するお気に入りがありません。'); return; }
-    const data = loadData();
-    const folderName = data.folders.find(f=>f.id===selectedFolderId)?.name || 'フォルダ';
-    isStopped = false;
-    for(let i=0;i<items.length;i++){
-      if(isStopped) break;
-      markFavoriteUsed(items[i].id);
-      await speakText(items[i].text, `${shuffle ? 'ランダム再生' : 'フォルダ連続再生'}：${folderName} ${i+1}/${items.length}`, {addHistory:false});
-      if(!isStopped && i < items.length-1) await wait(500);
-    }
-    renderAll();
-  }
-
-  function exportData(){
-    const data = loadData();
-    const blob = new Blob([JSON.stringify(data,null,2)], {type:'application/json'});
-    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'english_trainer_v3_data.json';
-    document.body.appendChild(a); a.click(); a.remove();
-  }
-  function importData(file){
-    const reader = new FileReader();
-    reader.onload = () => {
-      try{
-        const imported = ensureData(JSON.parse(reader.result));
-        saveData(imported); selectedFolderId = imported.settings.selectedFolderId || imported.folders[0].id; renderAll(); setStatus('データを読み込みました。');
-      }catch{ alert('JSONファイルを読み込めませんでした。'); }
-    };
-    reader.readAsText(file, 'utf-8');
-  }
-
-  document.addEventListener('click', async e => {
-    const el = e.target.closest('[data-action]'); if(!el) return;
-    const action = el.dataset.action, id = el.dataset.id;
-    const data = loadData();
-    if(action === 'select-folder') { selectedFolderId = id; data.settings.selectedFolderId = id; saveData(data); renderAll(); return; }
-    if(action === 'load-favorite') { const x=data.favorites.find(i=>i.id===id); if(x) loadToEditor(x.text); return; }
-    if(action === 'play-favorite') { const x=data.favorites.find(i=>i.id===id); if(x){ loadToEditor(x.text); markFavoriteUsed(id); await speakText(x.text,'お気に入り再生',{addHistory:false}); } return; }
-    if(action === 'delete-favorite') { if(confirm('このお気に入りを削除しますか？')) deleteFavorite(id); return; }
-    if(action === 'move-up') { moveFavorite(id,-1); return; }
-    if(action === 'move-down') { moveFavorite(id,1); return; }
-    if(action === 'load-history') { const x=data.history.find(i=>i.id===id); if(x) loadToEditor(x.text); return; }
-    if(action === 'play-history') { const x=data.history.find(i=>i.id===id); if(x){ loadToEditor(x.text); await speakText(x.text,'履歴再生',{addHistory:false}); } return; }
-    if(action === 'favorite-history') { favoriteHistory(id); return; }
-    if(action === 'delete-history') { if(confirm('この履歴を削除しますか？')) deleteHistory(id); return; }
-  });
-
-  $('playBtn').addEventListener('click', () => speakText(textEl.value,'入力欄再生'));
-  $('stopBtn').addEventListener('click', stop);
-  $('favBtn').addEventListener('click', addFavoriteFromText);
-  $('sampleBtn').addEventListener('click', () => { textEl.value = `Good morning everyone.\nThank you for joining today's meeting.\nLet me briefly explain the purpose of today's discussion.\nIf you have any questions, please feel free to interrupt me.`; updateCharCount(); });
-  $('clearTextBtn').addEventListener('click', () => { textEl.value=''; updateCharCount(); });
-  $('favoriteFolderSelect').addEventListener('change', e => { selectedFolderId = e.target.value; updateAndSave(data => data.settings.selectedFolderId = selectedFolderId); });
-  $('addFolderBtn').addEventListener('click', addFolder);
-  $('renameFolderBtn').addEventListener('click', renameFolder);
-  $('deleteFolderBtn').addEventListener('click', deleteFolder);
-  $('playFolderBtn').addEventListener('click', () => playFolder(false));
-  $('playRandomBtn').addEventListener('click', () => playFolder(true));
-  $('clearFavoritesBtn').addEventListener('click', () => { if(confirm('お気に入りをすべて削除しますか？')) updateAndSave(data => data.favorites=[]); });
-  $('clearHistoryBtn').addEventListener('click', () => { if(confirm('履歴をすべて削除しますか？')) updateAndSave(data => data.history=[]); });
-  $('exportBtn').addEventListener('click', exportData);
-  $('importBtn').addEventListener('click', () => $('importFile').click());
-  $('importFile').addEventListener('change', e => { if(e.target.files[0]) importData(e.target.files[0]); e.target.value=''; });
-  $('resetAllBtn').addEventListener('click', () => { if(confirm('全データを初期化しますか？')){ localStorage.removeItem(STORAGE_KEY); selectedFolderId=null; renderAll(); setStatus('全データを初期化しました。'); } });
-  $('favoriteSearch').addEventListener('input', renderFavorites);
-  $('historySearch').addEventListener('input', renderHistory);
-  $('favoriteSort').addEventListener('change', renderFavorites);
-  textEl.addEventListener('input', updateCharCount);
-  rateEl.addEventListener('input', () => $('rateValue').textContent = rateEl.value);
-  pitchEl.addEventListener('input', () => $('pitchValue').textContent = pitchEl.value);
-  document.querySelectorAll('.tab').forEach(tab => tab.addEventListener('click', () => {
-    document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
-    document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
-    tab.classList.add('active'); $(tab.dataset.tab).classList.add('active');
-  }));
-
-  updateCharCount(); renderAll();
-})();
-</script>
 </body>
 </html>
